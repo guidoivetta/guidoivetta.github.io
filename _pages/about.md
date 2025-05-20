@@ -1,14 +1,11 @@
 ---
 permalink: /
-title: "Guido Ivetta Website"
+title: "Guido Ivetta"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-Welcome!
-=======
 
 Guido Ivetta is a PhD student at Universidad Nacional de Córdoba (Argentina) supervised by Luciana Benotti. He serves as Assistant Professor in the same institution. His main area of academic interest is LLM Calibration and AI Bias / Fairness. Furthermore, he works with the Ethics in AI team at Fundación Vía Libre, is a Student Member of the ACL Ethics Committee, and is occasionally works as a visiting researcher at Imperial College London under the supervision of Rafael A. Calvo.
 
