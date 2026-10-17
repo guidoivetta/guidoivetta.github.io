@@ -130,6 +130,27 @@
   </div>
   {% endif %}
   
+  {% if cv.awards.size > 0 %}
+  <!-- Honors & Awards -->
+  <div class="cv-section">
+    <h2>Honors &amp; Awards</h2>
+    <ul class="cv-list">
+      {% for award in cv.awards %}
+      <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title">{{ award.title }}</div>
+          {% if award.date %}<div class="cv-item-date">{{ award.date }}</div>{% endif %}
+        </div>
+        <div class="cv-item-content">
+          {% if award.awarder %}<div class="cv-item-subtitle">{{ award.awarder }}</div>{% endif %}
+          {% if award.summary %}<div class="cv-item-detail">{{ award.summary }}</div>{% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
   {% if cv.publications.size > 0 %}
   <!-- Publications -->
   <div class="cv-section">

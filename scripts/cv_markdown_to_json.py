@@ -248,6 +248,39 @@ def parse_skills(skills_text):
     
     return skills_entries
 
+def parse_awards(awards_text):
+    """Parse honors and awards section from markdown."""
+    awards_entries = []
+    if not awards_text:
+        return awards_entries
+    entries = re.findall(r'\* (.*?)(?=\n\*|\Z)', awards_text, re.DOTALL)
+    for entry in entries:
+        lines = entry.strip().split('\n')
+        if not lines:
+            continue
+        first_line = lines[0].strip()
+        date_match = re.search(r'\(([^()]*\d{4}[^()]*)\)$', first_line)
+        date = date_match.group(1).strip() if date_match else ""
+        text_without_date = re.sub(r'\s*\(([^()]*\d{4}[^()]*)\)$', '', first_line).strip()
+        
+        title_match = re.search(r'\*\*(.*?)\*\*', text_without_date)
+        if title_match:
+            title = title_match.group(1).strip()
+            rest = text_without_date.replace(f"**{title}**", "").strip(" ,—–-")
+            awarder = rest
+        else:
+            title = text_without_date.replace('**', '').strip()
+            awarder = ""
+            
+        summary = "\n".join(l.strip()[1:].strip() for l in lines[1:] if l.strip().startswith('*') or l.strip().startswith('-'))
+        awards_entries.append({
+            "title": title,
+            "awarder": awarder,
+            "date": date,
+            "summary": summary
+        })
+    return awards_entries
+
 def parse_publications(pub_dir):
     """Parse publications from the _publications directory."""
     publications = []
@@ -381,6 +414,7 @@ def create_cv_json(md_file, config_file, repo_root, output_file):
         "work": parse_work_experience(sections.get('Work experience', '')),
         "education": parse_education(sections.get('Education', '')),
         "skills": parse_skills(sections.get('Skills', '')),
+        "awards": parse_awards(sections.get('Honors and awards', '') or sections.get('Honors & awards', '') or sections.get('Awards', '')),
         "languages": [],
         "interests": [],
         "references": []

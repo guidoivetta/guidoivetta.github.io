@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in Computer Science at the **Facultad de Matemática, Astronomía, Física y Computación (FaMAF)**, **Universidad Nacional de Córdoba (UNC)** in Argentina, supervised by [Luciana Benotti](https://scholar.google.com/citations?user=MHvcOG0AAAAJ). I also serve as an Assistant Professor (*Profesor Asistente*) in Computer Science at FaMAF UNC.
+I am a PhD student in Computer Science and an **Agencia I+D+i Doctoral Fellow** at the **Facultad de Matemática, Astronomía, Física y Computación (FaMAF)**, **Universidad Nacional de Córdoba (UNC)** in Argentina, supervised by [Luciana Benotti](https://scholar.google.com/citations?user=MHvcOG0AAAAJ). I graduated as *Abanderado* (Valedictorian) with the 3rd highest GPA across the entire university, and I currently serve as an Assistant Professor (*Profesor Ayudante*) in Computer Science at FaMAF UNC.
 
-In addition to my academic work at UNC, I conduct research with the **Ethics in AI** team at [Fundación Vía Libre](https://www.vialibre.org.ar/), serve as a Student Member of the **ACL Ethics Committee**, and work as a visiting researcher at **Imperial College London** under the supervision of [Rafael A. Calvo](https://scholar.google.com/citations?user=1-SzKjMAAAAJ).
+In addition to my doctoral research at UNC, I am the **Technical Lead of the Artificial Intelligence Team** at [Fundación Vía Libre](https://ia.vialibre.org.ar/), a Student Member of the **ACL Ethics Committee**, and a visiting researcher at **Imperial College London** under the supervision of [Rafael A. Calvo](https://scholar.google.com/citations?user=1-SzKjMAAAAJ).
 
 ---
 
@@ -17,28 +17,30 @@ In addition to my academic work at UNC, I conduct research with the **Ethics in 
 
 My research focuses on evaluating and improving the reliability, fairness, and cultural grounding of modern artificial intelligence systems:
 
-* **LLM Calibration & Selective Prediction:** Developing robust methods to estimate model uncertainty and confidence in generative language and vision-language models, enabling systems to selectively abstain when uncertain.
-* **Bias, Fairness & Stereotyping in AI:** Evaluating how foundation models encode, reproduce, and amplify societal stereotypes and biases, with special emphasis on under-represented languages and socio-cultural regions.
-* **Participatory AI & Community Co-Design:** Designing participatory methodologies that involve affected communities (e.g., secondary schools, local organizations) in creating authentic, culturally grounded evaluation benchmarks like [HESEIA](/portfolio/heseia).
-* **Multilingual & Multimodal Benchmarking:** Assessing the cross-cultural and dialectal competence of vision-language and translation models across regional Spanish varieties and global languages (e.g., [CVQA](/portfolio/cvqa), [La Leaderboard](/portfolio/la-leaderboard)).
+* **LLM Calibration & Selective Prediction:** Developing methods to estimate model uncertainty and confidence in generative language and vision-language models, enabling systems to selectively abstain when uncertain. (Winner of the *Best Student Paper Award* at LatinX in AI @ NAACL 2024).
+* **Bias, Fairness & Stereotyping in AI:** Designing auditing methodologies and tools like [EDIA](/portfolio/edia) to systematically detect, characterize, and evaluate demographic biases and regional stereotypes across Latin American and under-represented communities.
+* **Participatory AI & Community Co-Design:** Bridging technical evaluation and civil society by creating community-sourced benchmarks like [HESEIA](/portfolio/heseia)—co-designed with 370 educators and 5,000+ secondary students across 189 schools—and [LACES](/portfolio/laces).
+* **Multilingual & Multimodal Benchmarking:** Assessing the cross-cultural and dialectal competence of vision-language models and machine translation across regional Spanish varieties and global languages (e.g., [CVQA](/portfolio/cvqa), [La Leaderboard](/portfolio/la-leaderboard), CaMMT).
 
 ---
 
-## News & Highlights
+## Recent Highlights
 
-* **ACL 2026 (Findings):** Our paper *"Adaptive Data Collection for Latin-American Community-sourced Evaluation of Stereotypes (LACES)"* was accepted to Findings of ACL 2026.
-* **AI and Ethics (2026):** Paper *"Towards culturally-appropriate AI for health in the majority world: insights from participatory work in Latin America"* published in Springer's *AI and Ethics*.
-* **EMNLP 2025:** Our work on *"HESEIA: A community-based dataset for evaluating social biases in large language models, co-designed in real school settings in Latin America"* was presented at EMNLP 2025.
-* **ACL 2025:** Co-instructed the tutorial *"Navigating Ethical Challenges in NLP: Hands-on strategies for students and researchers"* and co-authored *"La Leaderboard"* at ACL 2025 in Vienna.
-* **CACM (2024):** Published *"Exploring stereotypes and biases in language technologies in Latin America"* in *Communications of the ACM*.
-* **NeurIPS 2024 & ACL 2024:** Co-authored *"CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark"* at NeurIPS 2024 and *"Selectively Answering Visual Questions"* at Findings of ACL 2024.
+* **ACL 2026 (San Diego):** Presented *"Adaptive Data Collection for Latin-American Community-sourced Evaluation of Stereotypes (LACES)"* at Findings of ACL 2026, presented orally at the StereACuLT workshop, and co-organized the Latin American NLP Birds-of-a-Feather session.
+* **AI and Ethics (Springer Nature, 2026):** Published *"Towards culturally-appropriate AI for health in the majority world: insights from participatory work in Latin America"*.
+* **ICLR 2026 (Rio de Janeiro):** Our paper on *"Logical Reasoning Evaluation and Social Bias"* was selected as a featured work at the ICLR 2026 Logical Reasoning Workshop.
+* **India AI Impact Summit 2026 (New Delhi):** Represented Fundación Vía Libre presenting HESEIA within the AI Research & Impact Symposium.
+* **EMNLP 2025 (Suzhou):** Presented *"HESEIA: A community-based dataset for evaluating social biases in large language models, co-designed in real school settings in Latin America"* in the main conference oral program.
+* **ACL 2025 (Vienna):** Co-instructed the tutorial *"Navigating Ethical Challenges in NLP: Hands-on strategies for students and researchers"* and co-authored *"La Leaderboard"*.
+* **Communications of the ACM (2024):** Published *"Exploring stereotypes and biases in language technologies in Latin America"* in *CACM*.
+* **ACM FAccT 2024 (Rio de Janeiro):** Conducted the hands-on tutorial and demonstration of [EDIA](/portfolio/edia) (*"Evaluation of Bias for Experts in Discrimination, not in Computer Science"*).
 
 ---
 
-## Navigation
+## Navigation & Resources
 
-* [Publications](/publications/): Full list of journal articles, conference papers, tutorials, and preprints.
-* [Talks & Presentations](/talks/): Invited presentations, conference talks, and tutorials.
-* [Teaching](/teaching/): Academic teaching experience at FaMAF UNC and tutorial instruction.
-* [Research Projects & Portfolio](/portfolio/): Overview of benchmarks, datasets, and collaborative initiatives.
-* [Curriculum Vitae](/cv/): Academic background, appointments, education, and service.
+* [Curriculum Vitae](/cv/) | [Download CV as PDF](/files/cv.pdf)
+* [Publications](/publications/): Journal articles, conference papers, tutorials, and preprints.
+* [Talks & Presentations](/talks/): Invited presentations, conference talks, tutorials, and workshops.
+* [Teaching](/teaching/): University appointments at FaMAF UNC and tutorial instruction.
+* [Portfolio & Projects](/portfolio/): Open-source benchmarks, datasets, and collaborative initiatives.

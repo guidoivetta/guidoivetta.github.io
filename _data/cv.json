@@ -37,27 +37,38 @@
   },
   "work": [
     {
-      "company": "Universidad Nacional de C\u00f3rdoba (FaMAF)",
-      "position": "Assistant Professor",
+      "company": "Agencia I+D+i",
+      "position": "Doctoral Fellow",
       "website": "",
       "startDate": "2023",
       "endDate": "present",
       "summary": "",
       "highlights": [
-        "Teaching undergraduate and graduate Computer Science courses (Natural Language Processing, Text Mining, Algorithms)",
-        "Designing practical assignments, supervising lab coursework, and mentoring students"
+        "Doctoral research fellowship funded by the National Agency for the Promotion of Research, Technological Development and Innovation (Agencia I+D+i), Argentina."
       ]
     },
     {
       "company": "Fundaci\u00f3n V\u00eda Libre",
-      "position": "Researcher in Ethics in AI",
+      "position": "Technical Lead @ AI Team",
       "website": "",
-      "startDate": "2022",
+      "startDate": "2023",
       "endDate": "present",
       "summary": "",
       "highlights": [
-        "Researching algorithmic fairness, social bias detection, and regional stereotyping in LLMs",
-        "Co-designing community benchmarks and contributing to public policy reports in Latin America"
+        "Technical leadership of the Artificial Intelligence team at Fundaci\u00f3n V\u00eda Libre.",
+        "Directing research on algorithmic fairness, bias characterization, and open-source tooling (EDIA, HESEIA, LACES)."
+      ]
+    },
+    {
+      "company": "Universidad Nacional de C\u00f3rdoba (FaMAF)",
+      "position": "Assistant Professor",
+      "website": "",
+      "startDate": "2021",
+      "endDate": "present",
+      "summary": "",
+      "highlights": [
+        "Teaching undergraduate Computer Science courses: *Databases* (Relational Algebra, SQL, Transactions, Concurrency), *Discrete Mathematics II* (Graph Theory, Combinatorial Algorithms), and *Introduction to Logic* (Lattice Theory, Formal Grammars, Automata).",
+        "Designing practical coursework, supervising laboratory sessions, and mentoring students."
       ]
     },
     {
@@ -68,7 +79,7 @@
       "endDate": "present",
       "summary": "",
       "highlights": [
-        "Research collaboration on participatory AI and health conversational agents supervised by Prof. Rafael A. Calvo"
+        "Research collaboration on participatory AI and health conversational agents supervised by Prof. Rafael A. Calvo."
       ]
     },
     {
@@ -79,8 +90,8 @@
       "endDate": "present",
       "summary": "",
       "highlights": [
-        "Serving on the Ethics Committee of the Association for Computational Linguistics (ACL)",
-        "Co-instructing ethics tutorials and reviewing ethical considerations in NLP research"
+        "Serving on the Ethics Committee of the Association for Computational Linguistics (ACL).",
+        "Co-instructing international tutorials and reviewing ethical aspects of NLP research."
       ]
     }
   ],
@@ -99,8 +110,17 @@
       "area": "Licenciatura in Computer Science",
       "studyType": "",
       "startDate": "",
-      "endDate": "2023",
-      "gpa": null,
+      "endDate": "2022",
+      "gpa": "9.78",
+      "courses": []
+    },
+    {
+      "institution": "Universidad Nacional de C\u00f3rdoba",
+      "area": "Analista in Computer Science",
+      "studyType": "",
+      "startDate": "",
+      "endDate": "2020",
+      "gpa": "9.67",
       "courses": []
     }
   ],
@@ -117,17 +137,30 @@
       ]
     },
     {
-      "name": "Technical Skills",
+      "name": "Programming Languages",
       "level": "",
       "keywords": [
         "Python",
+        "JavaScript",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Technologies & Frameworks",
+      "level": "",
+      "keywords": [
+        "Linux",
+        "Git",
+        "GitHub",
         "PyTorch",
         "Hugging Face Transformers",
         "NumPy",
         "Pandas",
         "Scikit-learn",
-        "Git",
-        "Linux / HPC"
+        "ReactJS",
+        "Redux",
+        "MongoDB",
+        "HPC/CCAD"
       ]
     },
     {
@@ -135,8 +168,41 @@
       "level": "",
       "keywords": [
         "Spanish (Native)",
-        "English (Fluent)"
+        "English (C1 Advanced)",
+        "German (B2.3 Upper Intermediate)"
       ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Best Student Paper Award",
+      "awarder": "LatinX in AI (LXAI) Research Workshop @ NAACL 2024",
+      "date": "Mexico City, Jun 2024",
+      "summary": ""
+    },
+    {
+      "title": "3rd Highest GPA across Universidad Nacional de C\u00f3rdoba",
+      "awarder": "Awarded across the entire university",
+      "date": "Aug 2022",
+      "summary": ""
+    },
+    {
+      "title": "FAMAF Flag Bearer (*Abanderado FAMAF*)",
+      "awarder": "Highest GPA in 5th year at FaMAF UNC",
+      "date": "May 2022",
+      "summary": ""
+    },
+    {
+      "title": "Academic Merit Award",
+      "awarder": "Banco Santander \u2014 Top 500 GPAs nationwide in Argentina",
+      "date": "Nov 2021",
+      "summary": ""
+    },
+    {
+      "title": "FAMAF Second Escort (*Segundo escolta FAMAF*)",
+      "awarder": "Highest GPA in 4th year at FaMAF UNC",
+      "date": "Jun 2021",
+      "summary": ""
     }
   ],
   "languages": [],
@@ -156,6 +222,13 @@
       "releaseDate": "2023-03-01",
       "website": "https://www.sidalc.net/search/Record/dig-unc-ar-11086-546994/Description",
       "summary": "Tesina de Licenciatura en Ciencias de la Computaci\u00f3n sobre t\u00e9cnicas de machine learning aplicadas al manejo agroecol\u00f3gico de huertas familiares."
+    },
+    {
+      "name": "Inteligencia Artificial Aplicada a la Huerta Familiar Agroecol\u00f3gica en la Patagonia",
+      "publisher": "Revista de Ciencias Sociales, Universidad Nacional de Quilmes (UNQ)",
+      "releaseDate": "2023-03-15",
+      "website": "https://ediciones.unq.edu.ar/publicaciones/editorial/publicaciones-periodicas/revista-de-ciencias-sociales-segunda-epoca.html",
+      "summary": "Art\u00edculo publicado en la Revista de Ciencias Sociales (UNQ) sobre la aplicaci\u00f3n situada de herramientas de inteligencia artificial para huertas agroecol\u00f3gicas en la Patagonia."
     },
     {
       "name": "Your Stereotypical Mileage May Vary: Practical Challenges of Evaluating Biases in Multiple Languages and Cultural Contexts",
@@ -194,10 +267,10 @@
     },
     {
       "name": "Sesgos en Modelos de Lenguaje y Construcci\u00f3n Participativa de Benchmarks de Evaluaci\u00f3n",
-      "publisher": "Trabajo Final de Grado, FaMAF, Universidad Nacional de C\u00f3rdoba",
+      "publisher": "Trabajo Final de Licenciatura, FaMAF, Universidad Nacional de C\u00f3rdoba",
       "releaseDate": "2024-11-01",
-      "website": "https://www.sidalc.net/search/Record/dig-unc-ar-11086-560716/Description",
-      "summary": "Investigaci\u00f3n sobre evaluaci\u00f3n de sesgos en modelos de lenguaje y metodolog\u00edas de dise\u00f1o participativo de benchmarks."
+      "website": "https://rdu.unc.edu.ar/items/7fff7b3e-3df3-4bac-a91a-9d50e83c8700",
+      "summary": "Trabajo Final de Grado de Licenciatura en Ciencias de la Computaci\u00f3n de Sof\u00eda Martinelli, dirigido por Guido Ivetta."
     },
     {
       "name": "SHADES: Towards a Multilingual Assessment of Stereotypes in Large Language Models",
@@ -279,6 +352,27 @@
   ],
   "presentations": [
     {
+      "name": "Evaluating Bias in Language Models with the EDIA Tool",
+      "event": "RightsCon 2023",
+      "date": "2023-06-06",
+      "location": "San Jos\u00e9, Costa Rica",
+      "description": "Tool demonstration and workshop on identifying algorithmic bias with EDIA."
+    },
+    {
+      "name": "Workshop on Responsible AI & Bias Evaluation",
+      "event": "FaMAF, Universidad Nacional de C\u00f3rdoba",
+      "date": "2024-05-10",
+      "location": "C\u00f3rdoba, Argentina",
+      "description": "Main organizer and speaker; awarded KhipuX / Americas Fund grantee funding."
+    },
+    {
+      "name": "EDIA: Evaluation of Bias for Experts in Discrimination, Not in Computer Science",
+      "event": "ACM Conference on Fairness, Accountability, and Transparency (ACM FAccT 2024)",
+      "date": "2024-06-04",
+      "location": "Rio de Janeiro, Brazil",
+      "description": "Interactive tutorial and CRAFT session on auditing social biases in NLP using the open-source EDIA tool."
+    },
+    {
       "name": "Detecting Correct Answers to Open Questions and Its Impact on Language Models' Confidence Scores",
       "event": "LatinX in AI (LXAI) Research Workshop at NAACL 2024",
       "date": "2024-06-21",
@@ -300,6 +394,13 @@
       "description": "Tutorial at ACL 2025 covering ethical issues in NLP, hands-on strategies for evaluation, and responsible research practices."
     },
     {
+      "name": "HESEIA: A Community-Based Dataset for Evaluating Social Biases in Large Language Models",
+      "event": "Conference on Empirical Methods in Natural Language Processing (EMNLP 2025)",
+      "date": "2025-11-06",
+      "location": "Suzhou, China",
+      "description": "Main conference oral and poster presentation at EMNLP 2025 in Suzhou, China."
+    },
+    {
       "name": "Insights from a Disaggregated Analysis of Kinds of Biases in a Multicultural Dataset",
       "event": "9th Widening NLP Workshop (WiNLP 2025)",
       "date": "2025-11-06",
@@ -307,19 +408,61 @@
       "description": "Presentation on fine-grained disaggregated evaluation of specific stereotypes in multicultural datasets."
     },
     {
+      "name": "HESEIA at the India AI Impact Summit 2026",
+      "event": "India AI Impact Summit 2026 (AI Research & Impact Symposium)",
+      "date": "2026-02-18",
+      "location": "New Delhi, India",
+      "description": "Presented HESEIA and participatory community co-design methodologies for evaluating social biases in LLMs."
+    },
+    {
+      "name": "Logical Reasoning Evaluation and Social Bias",
+      "event": "ICLR 2026 Workshop on Logical Reasoning of Large Language Models",
+      "date": "2026-04-25",
+      "location": "Rio de Janeiro, Brazil",
+      "description": "Oral and poster presentation selected as a featured work at the ICLR 2026 Logical Reasoning Workshop."
+    },
+    {
       "name": "Logical Reasoning Evaluation and Social Bias",
       "event": "ICLR 2026 Workshop on Logical Reasoning of Large Language Models",
       "date": "2026-05-02",
       "location": "Singapore",
       "description": "Talk examining the interaction between formal logical reasoning in LLMs and socio-cultural bias traces."
+    },
+    {
+      "name": "Adaptive Data Collection for Latin-American Community-sourced Evaluation of Stereotypes (LACES)",
+      "event": "63rd Annual Meeting of the Association for Computational Linguistics (ACL 2026)",
+      "date": "2026-07-02",
+      "location": "San Diego, USA",
+      "description": "Findings poster, oral presentation at StereACuLT workshop, and organizer of Latin American NLP Birds-of-a-Feather."
+    },
+    {
+      "name": "Practical Workshop on Socio-Cultural AI Evaluation",
+      "event": "Second South American NLP School, Universidad de Buenos Aires (UBA)",
+      "date": "2026-08-01",
+      "location": "Buenos Aires, Argentina",
+      "description": "Hands-on workshop leader instructing on evaluating socio-cultural biases, regional stereotypes, and calibration in language models."
     }
   ],
   "teaching": [
     {
-      "course": "Profesor Asistente (Assistant Professor) in Computer Science",
+      "course": "Profesor Ayudante (Assistant Professor) in Computer Science",
       "institution": "FaMAF, Universidad Nacional de C\u00f3rdoba",
-      "date": "2023-03-01",
+      "date": "2021-03-01",
       "role": "Undergraduate Courses",
+      "description": ""
+    },
+    {
+      "course": "Thesis Advisor: Lic. Sof\u00eda Martinelli",
+      "institution": "FaMAF, Universidad Nacional de C\u00f3rdoba",
+      "date": "2024-11-20",
+      "role": "Undergraduate Thesis Supervision (Direcci\u00f3n de Tesis)",
+      "description": ""
+    },
+    {
+      "course": "Thesis Evaluation Jury (Jurado de Tesis de Grado)",
+      "institution": "FaMAF, Universidad Nacional de C\u00f3rdoba",
+      "date": "2024-12-15",
+      "role": "Thesis Examination Committee (Jurado Evaluador)",
       "description": ""
     },
     {
@@ -339,6 +482,13 @@
       "description": "A globally diverse visual question answering benchmark covering 30+ languages to test vision-language models on cultural grounding."
     },
     {
+      "name": "EDIA & EDIA 2.0: Evaluation of Discrimination in AI",
+      "category": "portfolio",
+      "date": "",
+      "url": "",
+      "description": "Open-source toolkit and platform for evaluating gender, racial, and regional stereotypes in language and multimodal technologies."
+    },
+    {
       "name": "Ethics in AI Research at Fundaci\u00f3n V\u00eda Libre",
       "category": "portfolio",
       "date": "",
@@ -350,7 +500,7 @@
       "category": "portfolio",
       "date": "",
       "url": "",
-      "description": "A community-based dataset for evaluating social biases in large language models, co-designed in real school settings in Latin America."
+      "description": "A community-based dataset of 46,499 sentences co-designed in real school settings across Latin America to evaluate social biases in LLMs."
     },
     {
       "name": "La Leaderboard: Spanish Varieties & Regional Languages LLM Benchmark",
