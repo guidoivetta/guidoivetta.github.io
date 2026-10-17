@@ -1,14 +1,145 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Projects & Datasets"
 permalink: /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
+<p style="font-size: 1.1em; color: #555; margin-bottom: 30px;">
+  An overview of research initiatives, auditing platforms, and community-sourced benchmarks I develop and maintain, spanning algorithmic fairness, region-aware multilingual evaluation, and multimodal AI.
+</p>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+## Projects
 
+<div class="project-card" style="background: #fbfbfd; border: 1px solid #e1e4e8; border-radius: 8px; padding: 22px; margin-bottom: 35px; box-shadow: 0 2px 6px rgba(0,0,0,0.03);">
+  <h3 style="margin-top: 0; color: #0E5484; font-size: 1.3em;">
+    <a href="https://ia.vialibre.org.ar/" target="_blank" style="text-decoration: none; color: #0E5484;">Ethics in AI Team @ Fundación Vía Libre <i class="fas fa-external-link-alt" style="font-size: 0.75em;"></i></a>
+  </h3>
+  <p style="margin-bottom: 12px; line-height: 1.6; color: #333;">
+    <strong>Fundación Vía Libre</strong> is a non-profit civil society organization based in Argentina dedicated to digital rights, technological autonomy, and algorithmic accountability. As <strong>Technical Lead of the Artificial Intelligence Team</strong>, I direct research on identifying, measuring, and mitigating societal biases and demographic harms in foundation models across Latin America.
+  </p>
+  <div style="background: #ffffff; border-left: 3px solid #0E5484; padding: 12px 16px; margin: 15px 0; border-radius: 0 4px 4px 0;">
+    <h4 style="margin: 0 0 6px 0; color: #222;">EDIA &amp; EDIA 2.0 (Multimodal)</h4>
+    <p style="margin: 0; font-size: 0.95em; color: #444; line-height: 1.5;">
+      An open-source auditing platform developed to empower civil society organizations, educators, and domain experts to evaluate gender, racial, and regional biases in text embeddings and generative models without needing deep machine learning engineering expertise. Featured as an interactive tutorial at <strong>ACM FAccT 2024</strong> in Rio de Janeiro and presented at <strong>RightsCon 2023</strong> in Costa Rica.
+    </p>
+  </div>
+  <p style="margin-top: 15px; margin-bottom: 0;">
+    <a href="https://ia.vialibre.org.ar/" class="btn btn--primary btn--small" target="_blank"><i class="fas fa-globe"></i> Vía Libre AI Portal</a>
+    <a href="https://ia.vialibre.org.ar/edia1-0/" class="btn btn--inverse btn--small" target="_blank"><i class="fas fa-tools"></i> EDIA 1.0 Platform</a>
+    <a href="https://ia.vialibre.org.ar/ediamultimodal2-0/" class="btn btn--inverse btn--small" target="_blank"><i class="fas fa-images"></i> EDIA 2.0 Multimodal</a>
+  </p>
+</div>
+
+<hr style="border: 0; border-top: 2px solid #eaedf0; margin: 40px 0;" />
+
+## Datasets &amp; Benchmarks
+
+<div class="datasets-grid" style="display: flex; flex-direction: column; gap: 24px;">
+
+  <!-- LACES -->
+  <div class="dataset-card" style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 20px; background: #fff;">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; margin-bottom: 6px;">
+      <h3 style="margin: 0; color: #0E5484; font-size: 1.2em;">LACES: Latin-American Community-Sourced Evaluation of Stereotypes</h3>
+      <span style="font-size: 0.85em; color: #666; font-weight: bold; background: #eef2f7; padding: 2px 8px; border-radius: 4px;">ACL Findings 2026</span>
+    </div>
+    <p style="margin: 8px 0 14px 0; line-height: 1.55; color: #444;">
+      An adaptive, iterative data collection methodology that addresses the critical geo-cultural gap in NLP evaluation by crowdsourcing and validating regional stereotypes and demographic biases across Latin American varieties of Spanish.
+    </p>
+    <div>
+      <a href="https://aclanthology.org/2026.findings-acl.203/" class="btn btn--primary btn--small" target="_blank"><i class="fas fa-book"></i> ACL Anthology</a>
+      <a href="https://arxiv.org/abs/2510.24958" class="btn btn--inverse btn--small" target="_blank"><i class="fas fa-file-alt"></i> arXiv:2510.24958</a>
+    </div>
+  </div>
+
+  <!-- HESEIA -->
+  <div class="dataset-card" style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 20px; background: #fff;">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; margin-bottom: 6px;">
+      <h3 style="margin: 0; color: #0E5484; font-size: 1.2em;">HESEIA: Co-Designed Social Bias Benchmark in Secondary Schools</h3>
+      <span style="font-size: 0.85em; color: #666; font-weight: bold; background: #eef2f7; padding: 2px 8px; border-radius: 4px;">EMNLP 2025 (Oral)</span>
+    </div>
+    <p style="margin: 8px 0 14px 0; line-height: 1.55; color: #444;">
+      A benchmark of <strong>46,499 sentences</strong> co-designed directly within secondary school environments across Latin America, engaging <strong>370 teachers and 5,000+ students across 189 schools</strong> to audit social biases across curriculum areas. Presented at EMNLP 2025 and featured at the India AI Impact Summit 2026.
+    </p>
+    <div>
+      <a href="https://aclanthology.org/2025.emnlp-main.1275/" class="btn btn--primary btn--small" target="_blank"><i class="fas fa-book"></i> EMNLP Paper</a>
+      <a href="https://ia.vialibre.org.ar/eventos/la-experiencia-heseia-se-presento-en-la-conferencia-internacional-emnlp-2025/" class="btn btn--inverse btn--small" target="_blank"><i class="fas fa-newspaper"></i> Project Report</a>
+    </div>
+  </div>
+
+  <!-- INCLUDE-2.0 -->
+  <div class="dataset-card" style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 20px; background: #fff;">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; margin-bottom: 6px;">
+      <h3 style="margin: 0; color: #0E5484; font-size: 1.2em;">INCLUDE-2.0: Region-Aware Multilingual LLM Evaluation</h3>
+      <span style="font-size: 0.85em; color: #666; font-weight: bold; background: #eef2f7; padding: 2px 8px; border-radius: 4px;">EMNLP 2026 (Main)</span>
+    </div>
+    <p style="margin: 8px 0 14px 0; line-height: 1.55; color: #444;">
+      A large-scale region-aware factual benchmark covering <strong>91 languages from 86 countries (127 language–country pairs)</strong> with over <strong>220K curated samples</strong> drawn from native regional sources, disentangling linguistic proficiency from locally embedded cultural knowledge.
+    </p>
+    <div>
+      <a href="https://openreview.net/forum?id=FbLlZwgUss" class="btn btn--primary btn--small" target="_blank"><i class="fas fa-external-link-alt"></i> OpenReview</a>
+      <a href="https://huggingface.co/datasets/epfl-nlp/include-2.0" class="btn btn--inverse btn--small" target="_blank"><i class="fas fa-database"></i> Hugging Face Dataset</a>
+    </div>
+  </div>
+
+  <!-- MultiCrowspairs / SHADES -->
+  <div class="dataset-card" style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 20px; background: #fff;">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; margin-bottom: 6px;">
+      <h3 style="margin: 0; color: #0E5484; font-size: 1.2em;">MultiCrowspairs &amp; SHADES: Multilingual Stereotype Benchmarking</h3>
+      <span style="font-size: 0.85em; color: #666; font-weight: bold; background: #eef2f7; padding: 2px 8px; border-radius: 4px;">LREC-COLING 2024 &middot; NAACL 2025</span>
+    </div>
+    <p style="margin: 8px 0 14px 0; line-height: 1.55; color: #444;">
+      Multilingual and cross-cultural evaluation frameworks addressing the practical challenges of evaluating social stereotypes across global language communities, demonstrating how single-culture US-centric proxies fail to transfer across diverse socio-cultural settings.
+    </p>
+    <div>
+      <a href="https://aclanthology.org/2024.lrec-main.1545/" class="btn btn--primary btn--small" target="_blank"><i class="fas fa-book"></i> LREC-COLING Paper</a>
+      <a href="https://aclanthology.org/2025.naacl-long.600/" class="btn btn--inverse btn--small" target="_blank"><i class="fas fa-book"></i> NAACL SHADES Paper</a>
+    </div>
+  </div>
+
+  <!-- CVQA -->
+  <div class="dataset-card" style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 20px; background: #fff;">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; margin-bottom: 6px;">
+      <h3 style="margin: 0; color: #0E5484; font-size: 1.2em;">CVQA: Culturally-Diverse Multilingual Visual Question Answering</h3>
+      <span style="font-size: 0.85em; color: #666; font-weight: bold; background: #eef2f7; padding: 2px 8px; border-radius: 4px;">NeurIPS 2024</span>
+    </div>
+    <p style="margin: 8px 0 14px 0; line-height: 1.55; color: #444;">
+      A global visual question answering benchmark covering <strong>30+ languages</strong> across multiple continents, curated by native speakers to evaluate how vision-language models generalize to culturally grounded images and knowledge worldwide.
+    </p>
+    <div>
+      <a href="https://cvqa-benchmark.org/" class="btn btn--primary btn--small" target="_blank"><i class="fas fa-globe"></i> Benchmark Website</a>
+      <a href="https://arxiv.org/abs/2406.05967" class="btn btn--inverse btn--small" target="_blank"><i class="fas fa-file-alt"></i> arXiv:2406.05967</a>
+    </div>
+  </div>
+
+  <!-- CaMMT -->
+  <div class="dataset-card" style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 20px; background: #fff;">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; margin-bottom: 6px;">
+      <h3 style="margin: 0; color: #0E5484; font-size: 1.2em;">CaMMT: Culturally Aware Multimodal Machine Translation</h3>
+      <span style="font-size: 0.85em; color: #666; font-weight: bold; background: #eef2f7; padding: 2px 8px; border-radius: 4px;">EMNLP Findings 2025</span>
+    </div>
+    <p style="margin: 8px 0 14px 0; line-height: 1.55; color: #444;">
+      An evaluation benchmark measuring how effectively multimodal machine translation models understand and preserve culturally specific nuances, visual grounding, and idiomatic expressions across languages.
+    </p>
+    <div>
+      <a href="https://arxiv.org/abs/2505.24456" class="btn btn--inverse btn--small" target="_blank"><i class="fas fa-file-alt"></i> arXiv:2505.24456</a>
+    </div>
+  </div>
+
+  <!-- La Leaderboard -->
+  <div class="dataset-card" style="border: 1px solid #e1e4e8; border-radius: 8px; padding: 20px; background: #fff;">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; margin-bottom: 6px;">
+      <h3 style="margin: 0; color: #0E5484; font-size: 1.2em;">La Leaderboard: Spanish Varieties &amp; Regional Languages Benchmark</h3>
+      <span style="font-size: 0.85em; color: #666; font-weight: bold; background: #eef2f7; padding: 2px 8px; border-radius: 4px;">ACL 2025</span>
+    </div>
+    <p style="margin: 8px 0 14px 0; line-height: 1.55; color: #444;">
+      A comprehensive open evaluation suite and leaderboard assessing LLM capabilities across dialectal varieties of Spanish and co-official regional languages of Spain and Latin America.
+    </p>
+    <div>
+      <a href="https://aclanthology.org/2025.acl-long.1561/" class="btn btn--primary btn--small" target="_blank"><i class="fas fa-book"></i> ACL Paper</a>
+    </div>
+  </div>
+
+</div>

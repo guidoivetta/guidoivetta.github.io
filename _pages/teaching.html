@@ -1,12 +1,23 @@
 ---
 layout: archive
-title: "Teaching"
+title: "Teaching & Supervision"
 permalink: /teaching/
 author_profile: true
 ---
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="teaching-list">
+  {% for post in site.teaching reversed %}
+    <div class="teaching-item" style="margin-bottom: 30px;">
+      <h3 style="margin-bottom: 4px; color: #0E5484;">{{ post.title }}</h3>
+      <p style="color: #666; font-size: 0.95em; margin-bottom: 10px;">
+        <strong>{{ post.type }}</strong> &middot; <i>{{ post.venue }}</i> &middot; {{ post.location }}
+      </p>
+      <div class="teaching-content" style="line-height: 1.6;">
+        {{ post.content | markdownify }}
+      </div>
+      <hr style="margin-top: 25px; border: 0; border-top: 1px solid #e5e5e5;" />
+    </div>
+  {% endfor %}
+</div>

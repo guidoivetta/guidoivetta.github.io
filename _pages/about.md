@@ -40,7 +40,7 @@ My research focuses on evaluating and improving the reliability, fairness, and c
 
 ## Navigation & Resources
 
-* [Curriculum Vitae](/cv/) ([Versión en Español](/cv-es/)) | [English PDF](/files/cv_en.pdf) | [Español PDF](/files/cv_es.pdf)
+* [Curriculum Vitae](/cv/) | [English PDF](/cv/cv_en.pdf) | [Español PDF](/cv/cv_es.pdf)
 * [Publications](/publications/): Journal articles, conference papers, tutorials, and preprints.
 * [Talks & Presentations](/talks/): Invited presentations, conference talks, tutorials, and workshops.
 * [Teaching](/teaching/): University appointments at FaMAF UNC and tutorial instruction.
