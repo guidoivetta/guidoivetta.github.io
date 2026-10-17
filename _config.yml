@@ -27,7 +27,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "PhD Student in Computer Science at Universidad Nacional de Córdoba (Argentina)."
   location         : "Córdoba, Argentina"
-  employer         : "Universidad Nacional de Córdoba (Argentina)"
+  employer         : "Universidad Nacional de Córdoba / Fundación Vía Libre"
   uri              : # URL
   email            : "guidoivetta@mi.unc.edu.ar" 
 
@@ -60,7 +60,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "guidoivetta"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -78,12 +78,16 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  manuscripts:
+    title: 'Journal Articles'    
+  workshops:
+    title: 'Workshop Papers & Tutorials'
+  preprints:
+    title: 'Preprints & Working Papers'
+  theses:
+    title: 'Theses'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"

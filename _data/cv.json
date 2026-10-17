@@ -1,152 +1,370 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Guido Ivetta",
+    "email": "guidoivetta@mi.unc.edu.ar",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://guidoivetta.github.io",
+    "summary": "Currently employed at Universidad Nacional de C\u00f3rdoba / Fundaci\u00f3n V\u00eda Libre. PhD Student in Computer Science at Universidad Nacional de C\u00f3rdoba (Argentina).",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "C\u00f3rdoba, Argentina",
+      "countryCode": "AR",
       "region": ""
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=_QA3Hs4AAAAJ&hl=en"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/0009-0006-3248-1461"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "guidoivetta",
+        "url": "https://github.com/guidoivetta"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "guidoivetta",
+        "url": "https://www.linkedin.com/in/guidoivetta"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Universidad Nacional de C\u00f3rdoba (FaMAF)",
+      "position": "Assistant Professor",
+      "website": "",
+      "startDate": "2023",
+      "endDate": "present",
+      "summary": "",
+      "highlights": [
+        "Teaching undergraduate and graduate Computer Science courses (Natural Language Processing, Text Mining, Algorithms)",
+        "Designing practical assignments, supervising lab coursework, and mentoring students"
+      ]
+    },
+    {
+      "company": "Fundaci\u00f3n V\u00eda Libre",
+      "position": "Researcher in Ethics in AI",
+      "website": "",
+      "startDate": "2022",
+      "endDate": "present",
+      "summary": "",
+      "highlights": [
+        "Researching algorithmic fairness, social bias detection, and regional stereotyping in LLMs",
+        "Co-designing community benchmarks and contributing to public policy reports in Latin America"
+      ]
+    },
+    {
+      "company": "Imperial College London",
+      "position": "Visiting Researcher",
+      "website": "",
+      "startDate": "2024",
+      "endDate": "present",
+      "summary": "",
+      "highlights": [
+        "Research collaboration on participatory AI and health conversational agents supervised by Prof. Rafael A. Calvo"
+      ]
+    },
+    {
+      "company": "ACL Ethics Committee",
+      "position": "Student Member",
+      "website": "",
+      "startDate": "2024",
+      "endDate": "present",
+      "summary": "",
+      "highlights": [
+        "Serving on the Ethics Committee of the Association for Computational Linguistics (ACL)",
+        "Co-instructing ethics tutorials and reviewing ethical considerations in NLP research"
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "Universidad Nacional de C\u00f3rdoba",
+      "area": "Ph.D. in Computer Science",
       "studyType": "",
       "startDate": "",
-      "endDate": "2018",
+      "endDate": "2026",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "Universidad Nacional de C\u00f3rdoba",
+      "area": "Licenciatura in Computer Science",
       "studyType": "",
       "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "endDate": "2023",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Research Areas",
+      "level": "",
+      "keywords": [
+        "LLM Calibration",
+        "Uncertainty Estimation",
+        "Social Biases & Stereotypes in NLP",
+        "Participatory AI & Community Co-Design",
+        "Multimodal & Multilingual Benchmarking"
+      ]
+    },
+    {
+      "name": "Technical Skills",
+      "level": "",
+      "keywords": [
+        "Python",
+        "PyTorch",
+        "Hugging Face Transformers",
+        "NumPy",
+        "Pandas",
+        "Scikit-learn",
+        "Git",
+        "Linux / HPC"
+      ]
+    },
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": [
+        "Spanish (Native)",
+        "English (Fluent)"
+      ]
+    }
+  ],
   "languages": [],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "A Methodology to Characterize Bias and Harmful Stereotypes in Natural Language Processing in Latin America",
+      "publisher": "arXiv preprint arXiv:2207.06591",
+      "releaseDate": "2022-07-14",
+      "website": "https://arxiv.org/abs/2207.06591",
+      "summary": "Presents a pioneering methodology to characterize harmful stereotypes and demographic biases across Spanish language technologies in Latin America."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Aprendizaje Autom\u00e1tico Aplicado a la Huerta Familiar Agroecol\u00f3gica en la Patagonia",
+      "publisher": "Tesina de Licenciatura en Ciencias de la Computaci\u00f3n, FaMAF, Universidad Nacional de C\u00f3rdoba",
+      "releaseDate": "2023-03-01",
+      "website": "https://www.sidalc.net/search/Record/dig-unc-ar-11086-546994/Description",
+      "summary": "Tesina de Licenciatura en Ciencias de la Computaci\u00f3n sobre t\u00e9cnicas de machine learning aplicadas al manejo agroecol\u00f3gico de huertas familiares."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Your Stereotypical Mileage May Vary: Practical Challenges of Evaluating Biases in Multiple Languages and Cultural Contexts",
+      "publisher": "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+      "releaseDate": "2024-05-20",
+      "website": "https://aclanthology.org/2024.lrec-main.1545/",
+      "summary": "Examines practical challenges of evaluating social biases in NLP across multiple languages and socio-cultural settings, illustrating how regional stereotypes cannot simply be translated from English benchmarks."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark",
+      "publisher": "Thirty-eighth Conference on Neural Information Processing Systems (NeurIPS 2024)",
+      "releaseDate": "2024-06-10",
+      "website": "https://arxiv.org/abs/2406.05967",
+      "summary": "Visual Question Answering (VQA) is a crucial task in multimodal AI, often used to test vision-language models on understanding visual and linguistic information. CVQA introduces a culturally-diverse multilingual benchmark covering 30+ languages to evaluate model generalization across diverse cultural contexts."
+    },
+    {
+      "name": "Detecting Correct Answers to Open Questions and Its Impact on Language Models' Confidence Scores",
+      "publisher": "LatinX in AI (LXAI) Research Workshop at NAACL 2024, Mexico City",
+      "releaseDate": "2024-06-21",
+      "website": "https://doi.org/10.52591/lxai202406219",
+      "summary": "Explores how the automatic detection of correct open-ended answers influences model confidence scoring and calibration in Large Language Models."
+    },
+    {
+      "name": "Exploring Stereotypes and Biases in Language Technologies in Latin America",
+      "publisher": "Communications of the ACM, 67(8), 54-56",
+      "releaseDate": "2024-07-31",
+      "website": "https://dl.acm.org/doi/10.1145/3653322",
+      "summary": "Discusses the impacts of automated language technologies in Latin America and highlights participatory methodologies to uncover and mitigate local biases."
+    },
+    {
+      "name": "Selectively Answering Visual Questions",
+      "publisher": "Findings of the Association for Computational Linguistics: ACL 2024",
+      "releaseDate": "2024-08-01",
+      "website": "https://aclanthology.org/2024.findings-acl.250/",
+      "summary": "Investigates selective prediction in multimodal models, enabling large vision-language models to abstain from answering questions when their confidence is low."
+    },
+    {
+      "name": "Sesgos en Modelos de Lenguaje y Construcci\u00f3n Participativa de Benchmarks de Evaluaci\u00f3n",
+      "publisher": "Trabajo Final de Grado, FaMAF, Universidad Nacional de C\u00f3rdoba",
+      "releaseDate": "2024-11-01",
+      "website": "https://www.sidalc.net/search/Record/dig-unc-ar-11086-560716/Description",
+      "summary": "Investigaci\u00f3n sobre evaluaci\u00f3n de sesgos en modelos de lenguaje y metodolog\u00edas de dise\u00f1o participativo de benchmarks."
+    },
+    {
+      "name": "SHADES: Towards a Multilingual Assessment of Stereotypes in Large Language Models",
+      "publisher": "Proceedings of the 2025 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL 2025)",
+      "releaseDate": "2025-05-01",
+      "website": "https://aclanthology.org/2025.naacl-long.600/",
+      "summary": "A global multi-stakeholder benchmark evaluating stereotypical associations and harms in language models across dozens of languages and cultural communities."
+    },
+    {
+      "name": "CaMMT: Benchmarking Culturally Aware Multimodal Machine Translation",
+      "publisher": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+      "releaseDate": "2025-05-30",
+      "website": "https://arxiv.org/abs/2505.24456",
+      "summary": "Introduces CaMMT, an evaluation benchmark for culturally aware multimodal machine translation spanning diverse cultural concepts, images, and languages."
+    },
+    {
+      "name": "ROSA: Addressing Text Understanding Challenges in Photographs via ROtated SAmpling",
+      "publisher": "arXiv preprint arXiv:2506.03665",
+      "releaseDate": "2025-06-04",
+      "website": "https://arxiv.org/abs/2506.03665",
+      "summary": "Introduces ROtated SAmpling (ROSA) to significantly improve vision-language model robustness when reading rotated or misoriented text in photographs taken by visually impaired users."
+    },
+    {
+      "name": "La Leaderboard: A Large Language Model Leaderboard for Spanish Varieties and Languages of Spain and Latin America",
+      "publisher": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025)",
+      "releaseDate": "2025-07-01",
+      "website": "https://aclanthology.org/2025.acl-long.1561/",
+      "summary": "An open evaluation benchmark and leaderboard tracking language model performance across regional varieties of Spanish and co-official languages of Spain and Latin America."
+    },
+    {
+      "name": "Navigating Ethical Challenges in NLP: Hands-on Strategies for Students and Researchers",
+      "publisher": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025 Tutorial Abstracts)",
+      "releaseDate": "2025-07-27",
+      "website": "https://aclanthology.org/2025.acl-tutorials.5/",
+      "summary": "A tutorial presented at ACL 2025 providing hands-on strategies and ethical frameworks for NLP practitioners, students, and reviewers."
+    },
+    {
+      "name": "Synthetic Social Data: Trials and Tribulations",
+      "publisher": "arXiv preprint arXiv:2510.19952",
+      "releaseDate": "2025-10-22",
+      "website": "https://arxiv.org/abs/2510.19952",
+      "summary": "Critically examines the opportunities and ethical pitfalls of using Large Language Models to generate synthetic conversational data for social and behavioral science."
+    },
+    {
+      "name": "HESEIA: A Community-Based Dataset for Evaluating Social Biases in Large Language Models, Co-Designed in Real School Settings in Latin America",
+      "publisher": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025)",
+      "releaseDate": "2025-11-01",
+      "website": "https://aclanthology.org/2025.emnlp-main.1275/",
+      "summary": "Presents HESEIA, a benchmark for evaluating social biases in LLMs created through participatory co-design workshops with secondary school students in Latin America."
+    },
+    {
+      "name": "Insights from a Disaggregated Analysis of Kinds of Biases in a Multicultural Dataset",
+      "publisher": "Proceedings of the 9th Widening NLP Workshop (WiNLP 2025)",
+      "releaseDate": "2025-11-01",
+      "website": "https://aclanthology.org/2025.winlp-main.20/",
+      "summary": "Presents a fine-grained disaggregated evaluation of specific stereotypes and biases within multicultural datasets, revealing disparate impacts across demographic axes."
+    },
+    {
+      "name": "Logical Reasoning Evaluation and Social Bias",
+      "publisher": "ICLR 2026 Workshop on Logical Reasoning of Large Language Models",
+      "releaseDate": "2026-05-01",
+      "website": "https://openreview.net/forum?id=3KRDaQNUtt",
+      "summary": "Reviews how stereotypes and socio-cultural priors interact with reasoning chains and formal deduction in Large Language Models."
+    },
+    {
+      "name": "Adaptive Data Collection for Latin-American Community-sourced Evaluation of Stereotypes (LACES)",
+      "publisher": "Findings of the Association for Computational Linguistics: ACL 2026",
+      "releaseDate": "2026-07-01",
+      "website": "https://arxiv.org/abs/2510.24958",
+      "summary": "Proposes LACES, an adaptive community-sourced protocol for collecting and evaluating regional stereotypes in Latin America."
+    },
+    {
+      "name": "Towards Culturally-Appropriate AI for Health in the Majority World: Insights from Participatory Work in Latin America",
+      "publisher": "AI and Ethics, Springer, 6(4), 345",
+      "releaseDate": "2026-08-01",
+      "website": "https://link.springer.com/article/10.1007/s43681-026-01196-y",
+      "summary": "Investigates requirements and ethical considerations for conversational health AI in Latin America through participatory research with citizens and clinicians."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "name": "Detecting Correct Answers to Open Questions and Its Impact on Language Models' Confidence Scores",
+      "event": "LatinX in AI (LXAI) Research Workshop at NAACL 2024",
+      "date": "2024-06-21",
+      "location": "Mexico City, Mexico",
+      "description": "Presentation on calibration, uncertainty estimation, and evaluation of open question answering in LLMs."
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
+      "name": "Socio-Cultural Evaluation of AI",
+      "event": "Khipu: Latin American Meeting in Artificial Intelligence",
+      "date": "2025-03-12",
+      "location": "Latin America",
+      "description": "Hands-on tutorial and practical session on socio-cultural evaluation of stereotypes and biases in language models."
     },
     {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
+      "name": "Navigating Ethical Challenges in NLP: Hands-on Strategies for Students and Researchers",
+      "event": "63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025)",
+      "date": "2025-07-27",
+      "location": "Vienna, Austria",
+      "description": "Tutorial at ACL 2025 covering ethical issues in NLP, hands-on strategies for evaluation, and responsible research practices."
     },
     {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "Insights from a Disaggregated Analysis of Kinds of Biases in a Multicultural Dataset",
+      "event": "9th Widening NLP Workshop (WiNLP 2025)",
+      "date": "2025-11-06",
+      "location": "Online / Suzhou",
+      "description": "Presentation on fine-grained disaggregated evaluation of specific stereotypes in multicultural datasets."
+    },
+    {
+      "name": "Logical Reasoning Evaluation and Social Bias",
+      "event": "ICLR 2026 Workshop on Logical Reasoning of Large Language Models",
+      "date": "2026-05-02",
+      "location": "Singapore",
+      "description": "Talk examining the interaction between formal logical reasoning in LLMs and socio-cultural bias traces."
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
+      "course": "Profesor Asistente (Assistant Professor) in Computer Science",
+      "institution": "FaMAF, Universidad Nacional de C\u00f3rdoba",
+      "date": "2023-03-01",
+      "role": "Undergraduate Courses",
       "description": ""
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
+      "course": "Instructor & Tutorial Co-organizer: Ethics and Socio-Cultural AI Evaluation",
+      "institution": "ACL 2025 & Khipu",
+      "date": "2025-07-27",
+      "role": "Tutorials & Academic Summer Schools",
       "description": ""
     }
   ],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
+      "name": "CVQA: Culturally-Diverse Multilingual VQA",
       "category": "portfolio",
       "date": "",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "A globally diverse visual question answering benchmark covering 30+ languages to test vision-language models on cultural grounding."
+    },
+    {
+      "name": "Ethics in AI Research at Fundaci\u00f3n V\u00eda Libre",
+      "category": "portfolio",
+      "date": "",
+      "url": "",
+      "description": "Advancing algorithmic transparency, fairness, and public-interest AI research in Latin America."
+    },
+    {
+      "name": "HESEIA: Co-Designed Benchmark for Social Biases in LLMs",
+      "category": "portfolio",
+      "date": "",
+      "url": "",
+      "description": "A community-based dataset for evaluating social biases in large language models, co-designed in real school settings in Latin America."
+    },
+    {
+      "name": "La Leaderboard: Spanish Varieties & Regional Languages LLM Benchmark",
+      "category": "portfolio",
+      "date": "",
+      "url": "",
+      "description": "A comprehensive open leaderboard and evaluation suite for Spanish dialectal varieties and co-official regional languages."
+    },
+    {
+      "name": "LACES: Latin-American Community-Sourced Evaluation of Stereotypes",
+      "category": "portfolio",
+      "date": "",
+      "url": "",
+      "description": "An adaptive data collection protocol to surface and benchmark regional stereotypes across Latin America."
     }
   ]
 }
