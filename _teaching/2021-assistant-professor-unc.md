@@ -1,5 +1,5 @@
 ---
-title: "Profesor Ayudante (Assistant Professor) in Computer Science"
+title: "Profesor Asistente (Assistant Professor) in Computer Science"
 collection: teaching
 type: "Undergraduate Courses"
 permalink: /teaching/2021-assistant-professor-unc
@@ -8,7 +8,7 @@ date: 2021-03-01
 location: "Córdoba, Argentina"
 ---
 
-Assistant Professor (*Profesor Ayudante A*) in the Computer Science Section at the Facultad de Matemática, Astronomía, Física y Computación (FaMAF), Universidad Nacional de Córdoba (March 2021 – Present).
+Assistant Professor (*Profesor Asistente*) in the Computer Science Section at the Facultad de Matemática, Astronomía, Física y Computación (FaMAF), Universidad Nacional de Córdoba (March 2021 – Present).
 
 Courses taught and responsibilities:
 * **Databases (*Bases de Datos*)**: Data modeling, Relational Algebra, SQL, Transactions, Concurrency control, and DBMS architecture.

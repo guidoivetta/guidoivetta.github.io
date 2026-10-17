@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in Computer Science and an **Agencia I+D+i Doctoral Fellow** at the **Facultad de Matemática, Astronomía, Física y Computación (FaMAF)**, **Universidad Nacional de Córdoba (UNC)** in Argentina, supervised by [Luciana Benotti](https://scholar.google.com/citations?user=MHvcOG0AAAAJ). I graduated as *Abanderado* (Valedictorian) with the 3rd highest GPA across the entire university, and I currently serve as an Assistant Professor (*Profesor Ayudante*) in Computer Science at FaMAF UNC.
+I am a PhD student in Computer Science and an **Agencia I+D+i Doctoral Fellow** at the **Facultad de Matemática, Astronomía, Física y Computación (FaMAF)**, **Universidad Nacional de Córdoba (UNC)** in Argentina, supervised by [Luciana Benotti](https://scholar.google.com/citations?user=MHvcOG0AAAAJ). I graduated as *Abanderado* (Valedictorian) with the 3rd highest GPA across the entire university, and I serve as an **Assistant Professor (*Profesor Asistente*)** in Computer Science at FaMAF UNC.
 
 In addition to my doctoral research at UNC, I am the **Technical Lead of the Artificial Intelligence Team** at [Fundación Vía Libre](https://ia.vialibre.org.ar/), a Student Member of the **ACL Ethics Committee** (since September 2024), and was a visiting researcher at **Imperial College London** (January – April 2025) under the supervision of [Rafael A. Calvo](https://scholar.google.com/citations?user=1-SzKjMAAAAJ).
 
