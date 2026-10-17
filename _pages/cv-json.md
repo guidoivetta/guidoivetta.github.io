@@ -29,7 +29,9 @@ redirect_from:
 
 {% include cv-template.html %}
 
-<div class="cv-download-links">
-  <a href="{{ base_path }}/files/cv.pdf" class="btn btn--primary">Download CV as PDF</a>
-  <a href="{{ base_path }}/cv/" class="btn btn--inverse">View Markdown CV</a>
+<div class="cv-download-links" style="display: flex; flex-wrap: wrap; gap: 8px;">
+  <a href="{{ base_path }}/files/cv_en.pdf" class="btn btn--primary"><i class="fas fa-file-pdf"></i> Download CV (English PDF)</a>
+  <a href="{{ base_path }}/files/cv_es.pdf" class="btn btn--primary"><i class="fas fa-file-pdf"></i> Descargar CV (Español PDF)</a>
+  <a href="{{ base_path }}/cv/" class="btn btn--inverse">View English Markdown CV</a>
+  <a href="{{ base_path }}/cv-es/" class="btn btn--inverse">Ver CV en Español</a>
 </div>

@@ -9,7 +9,7 @@ redirect_from:
 
 I am a PhD student in Computer Science and an **Agencia I+D+i Doctoral Fellow** at the **Facultad de Matemática, Astronomía, Física y Computación (FaMAF)**, **Universidad Nacional de Córdoba (UNC)** in Argentina, supervised by [Luciana Benotti](https://scholar.google.com/citations?user=MHvcOG0AAAAJ). I graduated as *Abanderado* (Valedictorian) with the 3rd highest GPA across the entire university, and I currently serve as an Assistant Professor (*Profesor Ayudante*) in Computer Science at FaMAF UNC.
 
-In addition to my doctoral research at UNC, I am the **Technical Lead of the Artificial Intelligence Team** at [Fundación Vía Libre](https://ia.vialibre.org.ar/), a Student Member of the **ACL Ethics Committee**, and a visiting researcher at **Imperial College London** under the supervision of [Rafael A. Calvo](https://scholar.google.com/citations?user=1-SzKjMAAAAJ).
+In addition to my doctoral research at UNC, I am the **Technical Lead of the Artificial Intelligence Team** at [Fundación Vía Libre](https://ia.vialibre.org.ar/), a Student Member of the **ACL Ethics Committee** (since September 2024), and was a visiting researcher at **Imperial College London** (January – April 2025) under the supervision of [Rafael A. Calvo](https://scholar.google.com/citations?user=1-SzKjMAAAAJ).
 
 ---
 
@@ -26,6 +26,7 @@ My research focuses on evaluating and improving the reliability, fairness, and c
 
 ## Recent Highlights
 
+* **EMNLP 2026 (Main Conference):** Co-authored *"INCLUDE-2.0: Disentangling Knowledge Gaps in Multilingual LLM Evaluation"*, a large-scale region-aware factual benchmark covering 91 languages from 86 countries across 220K samples.
 * **ACL 2026 (San Diego):** Presented *"Adaptive Data Collection for Latin-American Community-sourced Evaluation of Stereotypes (LACES)"* at Findings of ACL 2026, presented orally at the StereACuLT workshop, and co-organized the Latin American NLP Birds-of-a-Feather session.
 * **AI and Ethics (Springer Nature, 2026):** Published *"Towards culturally-appropriate AI for health in the majority world: insights from participatory work in Latin America"*.
 * **ICLR 2026 (Rio de Janeiro):** Our paper on *"Logical Reasoning Evaluation and Social Bias"* was selected as a featured work at the ICLR 2026 Logical Reasoning Workshop.
@@ -39,7 +40,7 @@ My research focuses on evaluating and improving the reliability, fairness, and c
 
 ## Navigation & Resources
 
-* [Curriculum Vitae](/cv/) | [Download CV as PDF](/files/cv.pdf)
+* [Curriculum Vitae](/cv/) ([Versión en Español](/cv-es/)) | [English PDF](/files/cv_en.pdf) | [Español PDF](/files/cv_es.pdf)
 * [Publications](/publications/): Journal articles, conference papers, tutorials, and preprints.
 * [Talks & Presentations](/talks/): Invited presentations, conference talks, tutorials, and workshops.
 * [Teaching](/teaching/): University appointments at FaMAF UNC and tutorial instruction.

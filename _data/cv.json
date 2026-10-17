@@ -41,10 +41,10 @@
       "position": "Doctoral Fellow",
       "website": "",
       "startDate": "2023",
-      "endDate": "present",
+      "endDate": "2026",
       "summary": "",
       "highlights": [
-        "Doctoral research fellowship funded by the National Agency for the Promotion of Research, Technological Development and Innovation (Agencia I+D+i), Argentina."
+        "Doctoral research fellowship (Nov 2023 \u2013 Nov 2026) funded by the National Agency for the Promotion of Research, Technological Development and Innovation (Agencia I+D+i), Argentina."
       ]
     },
     {
@@ -55,7 +55,7 @@
       "endDate": "present",
       "summary": "",
       "highlights": [
-        "Technical leadership of the Artificial Intelligence team at Fundaci\u00f3n V\u00eda Libre.",
+        "Technical leadership of the Artificial Intelligence team at Fundaci\u00f3n V\u00eda Libre (Jun 2023 \u2013 present).",
         "Directing research on algorithmic fairness, bias characterization, and open-source tooling (EDIA, HESEIA, LACES)."
       ]
     },
@@ -67,19 +67,30 @@
       "endDate": "present",
       "summary": "",
       "highlights": [
-        "Teaching undergraduate Computer Science courses: *Databases* (Relational Algebra, SQL, Transactions, Concurrency), *Discrete Mathematics II* (Graph Theory, Combinatorial Algorithms), and *Introduction to Logic* (Lattice Theory, Formal Grammars, Automata).",
+        "Teaching undergraduate Computer Science courses (Mar 2021 \u2013 present): *Databases* (Relational Algebra, SQL, Transactions, Concurrency), *Discrete Mathematics II* (Graph Theory, Combinatorial Algorithms), and *Introduction to Logic* (Lattice Theory, Formal Grammars, Automata).",
         "Designing practical coursework, supervising laboratory sessions, and mentoring students."
+      ]
+    },
+    {
+      "company": "Seenka",
+      "position": "Software Developer",
+      "website": "",
+      "startDate": "2021",
+      "endDate": "2021",
+      "summary": "",
+      "highlights": [
+        "Software and frontend development with Angular and GraphQL (Mar 2021 \u2013 Jul 2021), C\u00f3rdoba, Argentina."
       ]
     },
     {
       "company": "Imperial College London",
       "position": "Visiting Researcher",
       "website": "",
-      "startDate": "2024",
-      "endDate": "present",
+      "startDate": "2025",
+      "endDate": "2025",
       "summary": "",
       "highlights": [
-        "Research collaboration on participatory AI and health conversational agents supervised by Prof. Rafael A. Calvo."
+        "Visiting research appointment (Jan 2025 \u2013 Apr 2025) in London, UK, collaborating on participatory AI and health conversational agents supervised by Prof. Rafael A. Calvo."
       ]
     },
     {
@@ -90,8 +101,8 @@
       "endDate": "present",
       "summary": "",
       "highlights": [
-        "Serving on the Ethics Committee of the Association for Computational Linguistics (ACL).",
-        "Co-instructing international tutorials and reviewing ethical aspects of NLP research."
+        "Serving on the Ethics Committee of the Association for Computational Linguistics (ACL) from September 2024 to present.",
+        "Co-instructing international tutorials and reviewing ethical considerations in NLP research."
       ]
     }
   ],
@@ -137,30 +148,39 @@
       ]
     },
     {
-      "name": "Programming Languages",
+      "name": "AI, Machine Learning & NLP",
+      "level": "",
+      "keywords": [
+        "PyTorch",
+        "Hugging Face Transformers",
+        "Scikit-learn",
+        "NumPy",
+        "Pandas",
+        "vLLM"
+      ]
+    },
+    {
+      "name": "Programming & Web Technologies",
       "level": "",
       "keywords": [
         "Python",
         "JavaScript",
-        "SQL"
+        "SQL",
+        "ReactJS",
+        "Angular",
+        "GraphQL",
+        "MongoDB"
       ]
     },
     {
-      "name": "Technologies & Frameworks",
+      "name": "Tools & Infrastructure",
       "level": "",
       "keywords": [
         "Linux",
         "Git",
         "GitHub",
-        "PyTorch",
-        "Hugging Face Transformers",
-        "NumPy",
-        "Pandas",
-        "Scikit-learn",
-        "ReactJS",
-        "Redux",
-        "MongoDB",
-        "HPC/CCAD"
+        "Docker",
+        "High-Performance Computing (HPC/SLURM)"
       ]
     },
     {
@@ -266,13 +286,6 @@
       "summary": "Investigates selective prediction in multimodal models, enabling large vision-language models to abstain from answering questions when their confidence is low."
     },
     {
-      "name": "Sesgos en Modelos de Lenguaje y Construcci\u00f3n Participativa de Benchmarks de Evaluaci\u00f3n",
-      "publisher": "Trabajo Final de Licenciatura, FaMAF, Universidad Nacional de C\u00f3rdoba",
-      "releaseDate": "2024-11-01",
-      "website": "https://rdu.unc.edu.ar/items/7fff7b3e-3df3-4bac-a91a-9d50e83c8700",
-      "summary": "Trabajo Final de Grado de Licenciatura en Ciencias de la Computaci\u00f3n de Sof\u00eda Martinelli, dirigido por Guido Ivetta."
-    },
-    {
       "name": "SHADES: Towards a Multilingual Assessment of Stereotypes in Large Language Models",
       "publisher": "Proceedings of the 2025 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL 2025)",
       "releaseDate": "2025-05-01",
@@ -329,6 +342,13 @@
       "summary": "Presents a fine-grained disaggregated evaluation of specific stereotypes and biases within multicultural datasets, revealing disparate impacts across demographic axes."
     },
     {
+      "name": "Sesgos en Modelos de Lenguaje y Construcci\u00f3n Participativa de Benchmarks de Evaluaci\u00f3n",
+      "publisher": "Trabajo Final de Licenciatura, FaMAF, Universidad Nacional de C\u00f3rdoba",
+      "releaseDate": "2025-12-01",
+      "website": "https://rdu.unc.edu.ar/items/7fff7b3e-3df3-4bac-a91a-9d50e83c8700",
+      "summary": "Trabajo Final de Grado de Licenciatura en Ciencias de la Computaci\u00f3n de Sof\u00eda Martinelli, dirigido por Guido Ivetta."
+    },
+    {
       "name": "Logical Reasoning Evaluation and Social Bias",
       "publisher": "ICLR 2026 Workshop on Logical Reasoning of Large Language Models",
       "releaseDate": "2026-05-01",
@@ -348,6 +368,13 @@
       "releaseDate": "2026-08-01",
       "website": "https://link.springer.com/article/10.1007/s43681-026-01196-y",
       "summary": "Investigates requirements and ethical considerations for conversational health AI in Latin America through participatory research with citizens and clinicians."
+    },
+    {
+      "name": "INCLUDE-2.0: Disentangling Knowledge Gaps in Multilingual LLM Evaluation",
+      "publisher": "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)",
+      "releaseDate": "2026-08-21",
+      "website": "https://openreview.net/forum?id=FbLlZwgUss",
+      "summary": "A large-scale benchmark for region-aware multilingual factual evaluation covering 91 languages from 86 countries with over 220K curated samples."
     }
   ],
   "presentations": [
@@ -454,15 +481,8 @@
     {
       "course": "Thesis Advisor: Lic. Sof\u00eda Martinelli",
       "institution": "FaMAF, Universidad Nacional de C\u00f3rdoba",
-      "date": "2024-11-20",
+      "date": "2025-12-01",
       "role": "Undergraduate Thesis Supervision (Direcci\u00f3n de Tesis)",
-      "description": ""
-    },
-    {
-      "course": "Thesis Evaluation Jury (Jurado de Tesis de Grado)",
-      "institution": "FaMAF, Universidad Nacional de C\u00f3rdoba",
-      "date": "2024-12-15",
-      "role": "Thesis Examination Committee (Jurado Evaluador)",
       "description": ""
     },
     {
@@ -470,6 +490,13 @@
       "institution": "ACL 2025 & Khipu",
       "date": "2025-07-27",
       "role": "Tutorials & Academic Summer Schools",
+      "description": ""
+    },
+    {
+      "course": "Thesis Evaluation Jury (Jurado de Tesis de Grado)",
+      "institution": "FaMAF, Universidad Nacional de C\u00f3rdoba",
+      "date": "2025-06-01",
+      "role": "Thesis Examination Committee (Jurado Evaluador)",
       "description": ""
     }
   ],
@@ -501,6 +528,13 @@
       "date": "",
       "url": "",
       "description": "A community-based dataset of 46,499 sentences co-designed in real school settings across Latin America to evaluate social biases in LLMs."
+    },
+    {
+      "name": "INCLUDE-2.0: Region-Aware Multilingual LLM Benchmark",
+      "category": "portfolio",
+      "date": "",
+      "url": "",
+      "description": "A large-scale benchmark for region-aware multilingual factual evaluation spanning 91 languages from 86 countries across 220K samples."
     },
     {
       "name": "La Leaderboard: Spanish Varieties & Regional Languages LLM Benchmark",

@@ -1,0 +1,329 @@
+%-------------------------
+% Resume in Latex
+% Based off of: https://github.com/sb2nov/resume
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+% --- LANGUAGE COMMAND ---
+\newcommand{\lang}[2]{\ifeng #1\else #2\fi}
+% -----------------------
+
+\usepackage[letterpaper, top=0.48in, bottom=0.48in, left=0.6in, right=0.6in]{geometry}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[\lang{english}{spanish}]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+
+\ifdefined\pdfglyphtounicode
+  \input{glyphtounicode}
+\fi
+
+\ifdefined\pdfgentounicode
+  \pdfgentounicode=1
+\fi
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{darkgray}{HTML}{333333}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large\bfseries\color{cvblue}
+}{}{0em}{}[\color{cvblue}\titlerule \vspace{-3pt}]
+
+% FontAwesome compatibility alias
+\def\faExternalLink{\faIcon{external-link-alt}}
+
+% Custom list commands
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \small #2 \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}, itemsep=2.5pt, topsep=1pt, parsep=0pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-3pt}}
+
+\newcommand{\resumeItemListStart}{\vspace{3.5pt}\begin{itemize}[leftmargin=0.18in, labelsep=4pt, itemsep=1.5pt, topsep=0pt, parsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{2pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\LARGE \textbf{Guido Ivetta}} \\ \vspace{3pt}
+    \small
+    \faMapMarker*\ Córdoba, Argentina \quad $\cdot$ \quad
+    \href{mailto:guidoivetta@unc.edu.ar}{\faEnvelope\ guidoivetta@unc.edu.ar} \quad $\cdot$ \quad
+    \href{https://linkedin.com/in/guidoivetta}{\faLinkedin\ in/guidoivetta} \quad $\cdot$ \quad
+    \href{https://github.com/guidoivetta}{\faGithub\ guidoivetta} \quad $\cdot$ \quad
+    \href{https://scholar.google.com/citations?user=_QA3Hs4AAAAJ&hl=en&oi=ao}{\faGraduationCap\ Google Scholar}
+\end{center}
+\vspace{-9pt}
+
+%-----------EXPERIENCE-----------
+\section{\lang{EXPERIENCE}{EXPERIENCIA}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Agencia I+D+i \href{https://www.argentina.gob.ar/jefatura/innovacion-ciencia-y-tecnologia/agencia}{\raisebox{-0.1\height}\faExternalLink}}{\lang{Nov 2023 -- Nov 2026}{Nov 2023 -- Nov 2026}} 
+      {\underline{\lang{Doctoral Fellow}{Becario doctoral}}}{Córdoba, Argentina}
+
+    \resumeSubheading
+      {Fundación Vía Libre \href{https://ia.vialibre.org.ar/}{\raisebox{-0.1\height}\faExternalLink}}{\lang{Jun 2023 -- Present}{Jun 2023 -- Actualidad}} 
+      {\underline{\lang{Technical Lead @ Artificial Intelligence Team}{Líder Técnico del Equipo de Inteligencia Artificial}}}{Córdoba, Argentina} 
+
+    \resumeSubheading
+      {Universidad Nacional de Córdoba \href{https://www.famaf.unc.edu.ar/}{\raisebox{-0.1\height}\faExternalLink}}{\lang{Mar 2021 -- Present}{Mar 2021 -- Actualidad}}
+      {\underline{\lang{Assistant Professor}{Profesor Ayudante A}}}{Córdoba, Argentina}
+      \resumeItemListStart
+        \resumeItem{\textbf{\lang{Databases}{Bases de Datos}}: \lang{Modeling, Relational Algebra, SQL, Concurrency.}{Modelado, Álgebra relacional, SQL, Concurrencia.}}
+        \resumeItem{\textbf{\lang{Discrete Mathematics II}{Matemática Discreta II}}: \lang{Graph Theory, Advanced Algorithms.}{Teoría de Grafos, Algoritmos Avanzados.}}
+        \resumeItem{\textbf{\lang{Introduction to Logic}{Introducción a la Lógica}}: \lang{Lattice Theory, Formal Grammars, Automata Theory.}{Teoría de reticulados, Gramáticas formales, Teoría de autómatas.}}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Imperial College London \href{https://www.imperial.ac.uk/}{\raisebox{-0.1\height}\faExternalLink}}{\lang{Jan 2025 -- Apr 2025}{Ene 2025 -- Abr 2025}} 
+      {\underline{\lang{Visiting Researcher (Advisor: Prof. Rafael A. Calvo)}{Investigador Visitante (Supervisor: Prof. Rafael A. Calvo)}}}{London, UK} 
+
+    \resumeSubheading
+      {Association for Computational Linguistics (ACL) \href{https://www.aclweb.org/}{\raisebox{-0.1\height}\faExternalLink}}{\lang{Sep 2024 -- Present}{Sep 2024 -- Actualidad}} 
+      {\underline{\lang{Student Member, ACL Ethics Committee}{Miembro Estudiantil, Comité de Ética de ACL}}}{Virtual} 
+
+    \resumeSubheading
+      {Seenka \href{https://seenka.com/}{\raisebox{-0.1\height}\faExternalLink}}{\lang{Mar 2021 -- Jul 2021}{Mar 2021 -- Jul 2021}} 
+      {\underline{\lang{Software Developer}{Desarrollador de Software}}}{Córdoba, Argentina}
+      \resumeItemListStart
+        \resumeItem{\lang{Software and frontend development using Angular and GraphQL.}{Desarrollo de software y frontend utilizando Angular y GraphQL.}}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{\lang{EDUCATION}{EDUCACIÓN}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Universidad Nacional de Córdoba}{Mar 2018 -- \lang{Dec 2022}{Dic 2022}}
+      {\lang{Licenciatura in Computer Science ($\sim$M.S. in CS)}{Licenciatura en Ciencias de la Computación} - \textbf{9.78/10} $|$ \lang{\textit{Abanderado} ($\sim$Valedictorian)}{\textit{Abanderado}}}{Córdoba, Argentina}
+    
+    \resumeSubheading
+      {Universidad Nacional de Córdoba}{Mar 2018 -- \lang{Dec 2020}{Dic 2020}}
+      {\lang{Analista in Computer Science ($\sim$B.S. in CS)}{Analista en Ciencias de la Computación} - \textbf{9.67/10} $|$ \lang{\textit{Abanderado} ($\sim$Valedictorian)}{\textit{Abanderado}}}{Córdoba, Argentina}
+  \resumeSubHeadingListEnd
+
+%-----------THESIS ADVISING & EXAMINATION-----------
+\section{\lang{THESIS ADVISING \& EXAMINATION}{DIRECCIÓN Y JURADO DE TESIS}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\lang{Thesis Advisor: Lic. Sofía Martinelli}{Director de Tesis: Lic. Sofía Martinelli} \href{https://rdu.unc.edu.ar/items/7fff7b3e-3df3-4bac-a91a-9d50e83c8700}{\raisebox{-0.1\height}\faExternalLink}}{\lang{Dec 2025}{Dic 2025}}
+      {\underline{\lang{Licenciatura in Computer Science, FaMAF UNC}{Lic. en Ciencias de la Computación, FaMAF UNC}}}{Córdoba, Argentina}
+      \resumeItemListStart
+        \resumeItem{\lang{Thesis Title: \textit{``Sesgos en modelos de lenguaje y construcción participativa de benchmarks de evaluación''}}{Título: \textit{``Sesgos en modelos de lenguaje y construcción participativa de benchmarks de evaluación''}}}
+      \resumeItemListEnd
+    
+    \resumeSubheading
+      {\lang{Thesis Examination Committee Member}{Miembro de Jurado de Tesis de Grado}}{\lang{2025 -- Present}{2025 -- Actualidad}}
+      {\underline{\lang{Licenciatura in Computer Science, FaMAF UNC}{Lic. en Ciencias de la Computación, FaMAF UNC}}}{Córdoba, Argentina}
+      \resumeItemListStart
+        \resumeItem{\lang{Thesis Jury for}{Jurado de tesis de} \textbf{María Victoria López Amuchastegui}}
+        \resumeItem{\lang{Thesis Jury for}{Jurado de tesis de} \textbf{Nicolás András Hormann Manriquez}}
+        \resumeItem{\lang{Thesis Jury for}{Jurado de tesis de} \textbf{Tiffany Bricet Fuentes de Abreu}}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{\lang{TECHNICAL SKILLS}{COMPETENCIAS TÉCNICAS}}
+\vspace{1pt}
+\small{
+    \textbf{\lang{AI, Machine Learning \& NLP:}{IA, Aprendizaje Automático y PLN:}} PyTorch, Hugging Face, Scikit-learn, NumPy, Pandas, vLLM \\
+    \textbf{\lang{Programming \& Web Technologies:}{Programación y Tecnologías Web:}} Python, JavaScript, SQL, ReactJS, Angular, GraphQL, MongoDB \\
+    \textbf{\lang{Tools \& Infrastructure:}{Herramientas e Infraestructura:}} Linux, Git, GitHub, Docker, High-Performance Computing (HPC/SLURM)
+}
+
+%-----------CERTIFICATIONS & LANGUAGES---------------
+\section{\lang{LANGUAGES \& CERTIFICATIONS}{IDIOMAS Y CERTIFICADOS}}
+\vspace{1pt}
+\small{
+    \textbf{\lang{Languages:}{Idiomas:}} \lang{Spanish (Native)}{Español (Nativo)} \quad $\cdot$ \quad \lang{English C1 (Advanced)}{Inglés C1 (Avanzado)} \quad $\cdot$ \quad \href{https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=8d20ed44f3&attid=0.1&permmsgid=msg-f:1693071186489855303&th=177eff461a2d4d47&view=att&disp=inline&sadnir=1&saddbat=ANGjdJ9Lh1VqjCmpeqBNAWEgCTelW-va_t57iChTnmJUeFpW-t8Q1dT2uk1hpgU50ZZ1bwf4eJDgy2es1ZtdmigVraf3uLlOBCtByq5Ht4iYY01MzWurxZzv3MgXkeOotkxnxFIxEk8FeTJUDBbuw0KCsHkFpQfR157c-OC1CHjWgdAd7Cd2YgkbLTj4GC9-1_4KgNRHJO7KrXGHKVQ74YIBGqN9S0lDGaLPoFxNKfstqueW-5YgvUkfC8H1_Q0p4nWtyuaOfnEivD2GBMrQrJfM3UiPP5E4-x_sdGUqrnrE8fx0zmvn9cUgQhCdgNBKb342zyxfXJgXDnbFZMV-yGxDWizQaYmYVvA3hzm_s9-OcpcbQrmIjcV-wrRWaq8pE0atAfP67eX2bAeLFGfnfJP7HoZ73McNzTxIyLypXV-V0LwasipVlUdcggFfGvFZV0SuA54cKbu1NwbIcXleSuiTsb_UnIQoDyWxP7iPyCGSusjoKpB6K5CJrK8TyLrl2gZmz9BLoKzSi-P1Ckqgj7ckNeVWD39tx5bhNbiP6ymb3JjkARRy2ayypVPfSQrE9wP25VYrm2vUf360p31GWQNribW_whUh6TS6JsjGE_WYQKiX374a-gzd-O7Jp4c0au8Tg_UXIP5i7spHuIY8_uotKQ7Y-c_kPYb3wNT1m6n2WeCFlC67yLw5NXpItfY}{\lang{German B2.3 (Upper Intermediate)}{Alemán B2.3 (Intermedio superior)} \faExternalLink} \\
+    \textbf{\lang{Courses:}{Cursos:}} \href{https://coursera.org/share/fc962a1faf7e9f1be188756a01ab2257}{Programming for Everybody (Python) \faExternalLink} \quad $\cdot$ \quad \href{https://coursera.org/share/a0be561a2929fe035a71fe0618ab498e}{AI for Everyone \faExternalLink}
+}
+
+\newpage
+
+%-----------PUBLICATIONS-----------
+\section{\lang{PUBLICATIONS}{PUBLICACIONES}}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading{INCLUDE-2.0: Disentangling Knowledge Gaps in Multilingual\ldots
+    \href{https://openreview.net/forum?id=FbLlZwgUss}{\raisebox{-0.1\height}\faExternalLink}}{Aug 2026}
+    {\underline{EMNLP 2026 - Romanou, Grandury, et al.}}{Miami, USA}
+
+    \resumeSubheading{Adaptive Data Collection for Latin-American Community-sourced\ldots
+    \href{https://aclanthology.org/2026.findings-acl.203/}{\raisebox{-0.1\height}\faExternalLink}}{Jul 2026}
+    {\underline{ACL Findings 2026 - Ivetta et al.}}{San Diego, USA}
+    
+    \resumeSubheading{Logical Reasoning Evaluation and Social Bias
+    \href{https://openreview.net/forum?id=3KRDaQNUtt}{\raisebox{-0.1\height}\faExternalLink}}{Apr 2026}
+    {\underline{ICLR 2026 Workshop - Martinelli, Ivetta, Benotti}}{Rio de Janeiro, Brazil}
+
+    \resumeSubheading{Insights from a Disaggregated Analysis of Kinds of Biases\ldots
+    \href{https://aclanthology.org/2025.winlp-main.20/}{\raisebox{-0.1\height}\faExternalLink}}{Nov 2025}
+    {\underline{WiNLP@EMNLP 2025 - Ivetta et al.}}{Suzhou, China}
+
+    \resumeSubheading{HESEIA: A community-based dataset for evaluating social biases\ldots
+    \href{https://aclanthology.org/2025.emnlp-main.1275/}{\raisebox{-0.1\height}\faExternalLink}}{Nov 2025}
+    {\underline{EMNLP Main 2025 (Oral Presentation) - Ivetta et al.}}{Suzhou, China}
+
+    \resumeSubheading{CaMMT: Benchmarking Culturally Aware Multimodal\ldots
+    \href{https://aclanthology.org/2025.findings-emnlp.1220/}{\raisebox{-0.1\height}\faExternalLink}}{Nov 2025}
+    {\underline{EMNLP Findings 2025 - Villa-Cueva et al.}}{Suzhou, China}
+
+    \resumeSubheading{Synthetic social data: trials and tribulations
+    \href{https://arxiv.org/abs/2510.19952}{\raisebox{-0.1\height}\faExternalLink}}{Oct 2025}
+    {\underline{arXiv - Ivetta, Moradbakhti, Calvo}}{Virtual}
+
+    \resumeSubheading{Navigating Ethical Challenges in NLP: Hands-on strategies\ldots
+    \href{https://aclanthology.org/2025.acl-tutorials.5/}{\raisebox{-0.1\height}\faExternalLink}}{Jul 2025}
+    {\underline{ACL 2025 Tutorial - Benotti, Ducel, Fort, Ivetta, et al.}}{Vienna, Austria}
+
+    \resumeSubheading{La Leaderboard: A Large Language Model Leaderboard\ldots
+    \href{https://aclanthology.org/2025.acl-long.1561/}{\raisebox{-0.1\height}\faExternalLink}}{Jul 2025}
+    {\underline{ACL 2025 - Grandury et al.}}{Vienna, Austria}
+
+    \resumeSubheading{Towards culturally-appropriate conversational AI for health\ldots
+    \href{https://link.springer.com/article/10.1007/s43681-026-01196-y}{\raisebox{-0.1\height}\faExternalLink}}{Jul 2025}
+    {\underline{AI and Ethics (Springer Nature) - Peters et al.}}{Virtual}
+    
+    \resumeSubheading{ROSA: Addressing text understanding challenges\ldots
+    \href{https://www.arxiv.org/abs/2506.03665}{\raisebox{-0.1\height}\faExternalLink}}{Jul 2025}
+    {\underline{arXiv - Maina, Ivetta, et al.}}{Virtual}
+
+    \resumeSubheading{SHADES: Towards a Multilingual Assessment of Stereotypes\ldots
+    \href{https://aclanthology.org/2025.naacl-long.600/}{\raisebox{-0.1\height}\faExternalLink}}{May 2025}
+    {\underline{NAACL 2025 - Mitchell et al.}}{Albuquerque, USA}
+    
+    \resumeSubheading{CVQA - Culturally-diverse Multilingual Visual Question\ldots
+    \href{https://cvqa-benchmark.org/}{\raisebox{-0.1\height}\faExternalLink}}{\lang{Dec 2024}{Dic 2024}}
+    {\underline{NeurIPS 2024 - Romero, Lyu, et al.}}{Vancouver, Canada}
+
+    \resumeSubheading{Selectively Answering Visual Questions
+    \href{https://aclanthology.org/2024.findings-acl.250/}{\raisebox{-0.1\height}\faExternalLink}}{\lang{Aug 2024}{Ago 2024}}
+    {\underline{ACL Findings 2024 - Eisenschlos, Maina, Ivetta, Benotti}}{\lang{Bangkok, Thailand}{Bangkok, Tailandia}}
+
+    \resumeSubheading{Exploring Stereotypes and Biases in Language Technologies\ldots
+    \href{https://dl.acm.org/doi/10.1145/3653322}{\raisebox{-0.1\height}\faExternalLink}}{Jul 2024}
+    {\underline{Communications of the ACM - Maina, Alonso Alemany, Ivetta, et al.}}{Virtual}
+
+    \resumeSubheading{Detecting correct answers to open questions and its impact\ldots
+    \href{https://research.latinxinai.org/workshops/naacl/naacl-2024.html}{\raisebox{-0.1\height}\faExternalLink}}{Jun 2024}
+    {\underline{LXAI @NAACL 2024 - Ivetta, Maina, Benotti}}{\lang{Mexico City, Mexico}{Ciudad de México, México}}
+
+    \resumeSubheading{Your Stereotypical Mileage May Vary: Practical Challenges\ldots
+    \href{https://aclanthology.org/2024.lrec-main.1545/}{\raisebox{-0.1\height}\faExternalLink}}{May 2024}
+    {\underline{LREC-COLING 2024 - Fort, et al.}}{\lang{Turin, Italy}{Torino, Italy}}
+
+    \resumeSubheading{A methodology to characterize bias and harmful stereotypes\ldots
+    \href{https://arxiv.org/abs/2207.06591}{\raisebox{-0.1\height}\faExternalLink}}{Mar 2023}
+    {\underline{arXiv - Alonso Alemany, Benotti, et al.}}{Virtual}
+    
+    \resumeSubheading{\lang{Artificial intelligence applied to the agroecological family garden\ldots}{Inteligencia artificial aplicada a la huerta familiar agroecológica\ldots}
+    \href{https://ediciones.unq.edu.ar/publicaciones/editorial/publicaciones-periodicas/revista-de-ciencias-sociales-segunda-epoca.html}{\raisebox{-0.1\height}\faExternalLink}}{Mar 2023}
+    {\underline{\lang{Social Sciences Journal, UNQ}{Revista de Ciencias Sociales, UNQ} - Benotti, Properzi, et al.}}{Buenos Aires, Argentina}
+  \resumeSubHeadingListEnd
+
+\newpage
+
+%-----------HONORS & AWARDS---------------
+\section{\lang{HONORS \& AWARDS}{HONORES \& PREMIOS}}
+  \resumeSubHeadingListStart
+    \resumeSubheading{LatinX in AI (LXAI) @ NAACL 2024 \href{https://research.latinxinai.org/papers/naacl/2024/pdf/Guido_Ivetta.pdf}{\raisebox{-0.1\height}\faExternalLink}}{Jun 2024}
+    {\small \underline{Best Student Paper Award} \lang{-- Awarded for the best student paper at the workshop.}{-- Otorgado al mejor paper de estudiante del workshop.}}{\lang{Mexico City, Mexico}{Ciudad de México, México}}
+
+    \resumeSubheading{Universidad Nacional de Córdoba \href{https://drive.google.com/file/d/1drLRBAAO8JotXkui_ln8FI3PxZOi-iFn/view?usp=sharing}{\raisebox{-0.1\height}\faExternalLink}}{\lang{Aug 2022}{Ago 2022}}
+    {\small \underline{\lang{3rd Highest GPA at UNC}{3er Mejor promedio de la UNC}} \lang{-- 3rd highest GPA across the entire university.}{-- Otorgado al 3er mejor promedio de toda la universidad.}}{Córdoba, Argentina}
+
+    \resumeSubheading{Universidad Nacional de Córdoba \href{https://drive.google.com/file/d/1wku7TJPC6rDmxRao0i4AHZ7KKb9IDTDO/view?usp=sharing}{\raisebox{-0.1\height}\faExternalLink}}{May 2022}
+    {\small \underline{\lang{FAMAF Flag Bearer}{Abanderado FAMAF}} \lang{-- Awarded for the highest GPA in the 5th year at FAMAF.}{-- Otorgado al mejor promedio de 5to año de FAMAF.}}{Córdoba, Argentina}
+
+    \resumeSubheading{Banco Santander \href{https://drive.google.com/file/d/1kI4jKNn9zrnJHBVs7384ztL73FZhDvDe/view?usp=sharing}{\raisebox{-0.1\height}\faExternalLink}}{Nov 2021}
+    {\small \underline{\lang{Academic Merit Award}{Premio al mérito académico}} \lang{-- Awarded to the top 500 GPAs nationwide.}{-- Otorgado a los 500 mejores promedios del país.}}{Córdoba, Argentina}
+
+    \resumeSubheading{Universidad Nacional de Córdoba \href{https://www.famaf.unc.edu.ar/noticias/felicitaciones-a-egresados-y-egresadas-de-la-famaf/}{\raisebox{-0.1\height}\faExternalLink}}{Jun 2021}
+    {\small \underline{\lang{FAMAF Second Escort}{Segundo escolta FAMAF}} \lang{-- Awarded for the highest GPA in the 4th year at FAMAF.}{-- Otorgado al mejor promedio de 4to año de FAMAF.}}{Córdoba, Argentina}
+  \resumeSubHeadingListEnd
+
+%-----------CONFERENCES & TALKS-----------
+\section{\lang{CONFERENCES \& TALKS}{CONGRESOS Y CHARLAS}}
+  \resumeSubHeadingListStart
+    \resumeSubheading{Universidad de Buenos Aires \href{https://south-american-nlp-school.dc.uba.ar/}{\raisebox{-0.1\height}\faExternalLink}}{\lang{Aug 2026}{Ago 2026}}
+    {\small \underline{Second South American NLP School} \lang{-- Practical workshop leader.}{-- Líder de taller práctico.}}{Buenos Aires, Argentina}
+
+    \resumeSubheading{ACL 2026 \href{https://2026.aclweb.org/}{\raisebox{-0.1\height}\faExternalLink}}{Jul 2026}
+    {\small \underline{63rd Annual Meeting of the ACL} \lang{-- Poster at main conf., oral at workshops, organized BoF.}{-- Speaker, conf. principal y tres workshops.}}{\lang{San Diego, USA}{San Diego, EEUU}}
+
+    \resumeSubheading{India AI Impact Summit 2026 \href{https://impact.indiaai.gov.in/}{\raisebox{-0.1\height}\faExternalLink}}{Feb 2026}
+    {\small \underline{International Expo of AI} \lang{-- Poster presentation.}{-- Presentación de poster.}}{New Delhi, India}
+
+    \resumeSubheading{EMNLP 2025 \href{https://2025.emnlp.org/}{\raisebox{-0.1\height}\faExternalLink}}{Nov 2025}
+    {\small \underline{Empirical Methods in NLP} \lang{-- Poster at main conf., oral at workshop.}{-- Poster conf. principal, oral en workshop.}}{Suzhou, China}
+
+    \resumeSubheading{ICLR 2026 \href{https://iclr.cc/}{\raisebox{-0.1\height}\faExternalLink}}{Apr 2026}
+    {\small \underline{\lang{Reasoning Workshop}{Workshop de Razonamiento}} \lang{-- Oral and poster (Featured paper).}{-- Oral y poster (Paper destacado).}}{\lang{Rio de Janeiro, Brazil}{Río de Janeiro, Brasil}}
+
+    \resumeSubheading{ACL 2025 \href{https://2025.aclweb.org/}{\raisebox{-0.1\height}\faExternalLink}}{Jul 2025}
+    {\small \underline{63rd Annual Meeting of the ACL} \lang{-- Tutorial co-instructor, poster at main conf.}{-- Co-instructor de tutorial, poster conf. principal.}}{\lang{Vienna, Austria}{Viena, Austria}}
+
+    \resumeSubheading{Khipu 2025 \href{https://khipu.ai/}{\raisebox{-0.1\height}\faExternalLink}}{Mar 2025}
+    {\small \underline{Latin American Meeting in AI 2025} \lang{-- Practical session leader on Socio-Cultural AI Evaluation.}{-- Líder de taller práctico de Evaluación Socio-Cultural de IA.}}{Santiago, Chile}
+
+    \resumeSubheading{FACCT 2024 \href{https://facctconference.org/2024/}{\raisebox{-0.1\height}\faExternalLink}}{Jun 2024}
+    {\small \underline{Conf. on Fairness, Accountability, and Transparency} \lang{-- Speaker at two Workshops.}{-- Speaker en dos Workshops.}}{\lang{Rio de Janeiro, Brazil}{Rio de Janeiro, Brasil}}
+
+    \resumeSubheading{RIIAA 2024 \href{https://riiaa.org/}{\raisebox{-0.1\height}\faExternalLink}}{Jul 2024}
+    {\small \underline{\lang{Artificial Intelligence and Applications Meeting}{Reunión de Inteligencia Artificial y sus Aplicaciones}} \lang{-- Poster presentation.}{-- Presentación de poster.}}{\lang{Mexico City, Mexico}{Ciudad de México, México}}
+
+    \resumeSubheading{NAACL 2024 \href{https://2024.naacl.org/}{\raisebox{-0.1\height}\faExternalLink}}{Jun 2024}
+    {\small \underline{North American Chapter of the ACL} \lang{-- Poster at main conf., oral at workshop, organized BoF.}{-- Poster conf. principal, oral en workshop.}}{\lang{Mexico City, Mexico}{Ciudad de México, México}}
+
+    \resumeSubheading{FAMAF UNC \href{https://famaf.unc.edu.ar/}{\raisebox{-0.1\height}\faExternalLink}}{May 2024}
+    {\small \underline{\lang{Responsible AI Workshop}{Workshop de IA Responsable}} \lang{-- Main organizer, KhipuX/Americas Fund grantee.}{-- Organizador principal, ganador beca KhipuX.}}{Córdoba, Argentina}
+
+    \resumeSubheading{ACL 2023 \href{https://2023.aclweb.org/}{\raisebox{-0.1\height}\faExternalLink}}{Jul 2023}
+    {\small \underline{61st Annual Meeting} \lang{-- Virtual participation.}{-- Participación virtual.}}{Toronto, Canada}
+
+    \resumeSubheading{Rightscon \href{https://www.vialibre.org.ar/en/workshop-at-rightscon/}{\raisebox{-0.1\height}\faExternalLink}}{Jun 2023}
+    {\small \underline{\lang{EDIA Tool Workshop}{Workshop herramienta EDIA}} \lang{-- Workshop speaker and tool presentation.}{-- Speaker en workshop y presentación de herramienta.}}{San José, Costa Rica}
+
+    \resumeSubheading{Ministerio de Producción e Industria de Neuquén \href{https://www.neuqueninforma.gob.ar/inteligencia-artificial-aplicada-a-la-huerta-agroecologica-y-al-compostaje/?fbclid=IwAR0BTbs4tyQs2FSaoP-7I5oXE2KOZoEcTGLar682mSmbxoktTRPn1YLyBa8}{\raisebox{-0.1\height}\faExternalLink}}{Mar 2023}
+    {\small \underline{\lang{PILHUE Project Presentation}{Presentación de proyecto PILHUE}} \lang{-- Presentation of thesis research project.}{-- Exposición de proyecto de tesis de grado.}}{Neuquén, Argentina}
+
+    \resumeSubheading{Khipu \href{https://khipu.ai/}{\raisebox{-0.1\height}\faExternalLink}}{Mar 2023}
+    {\small \underline{Latin American Meeting In AI 2023} \lang{-- Conference attendance.}{-- Asistencia a congreso presencial.}}{Montevideo, Uruguay}
+    
+    \resumeSubheading{Universidad de Buenos Aires \href{https://sites.google.com/view/workshop-nlp}{\raisebox{-0.1\height}\faExternalLink}}{Nov 2022}
+    {\small \underline{\lang{Argentine Workshop on NLP Research 2022}{Workshop Argentino de Investigación en NLP 2022}} \lang{-- Conference attendance.}{-- Asistencia a congreso presencial.}}{Buenos Aires, Argentina}
+
+    \resumeSubheading{Universidad de Buenos Aires \href{https://drive.google.com/file/d/1AgZmRDGiWzFH0PLRxKPXXvFG8yO34Oky/view?usp=sharing}{\raisebox{-0.1\height}\faExternalLink}}{Oct 2022}
+    {\small \underline{\lang{XV National Conf. of Researchers in Regional Economies}{XV Jornadas de Investigadores en Economías Regionales}} \lang{-- Presentation of research.}{-- Ponencia de investigación.}}{Buenos Aires, Argentina}
+    
+    \resumeSubheading{Max Planck Institute \href{https://drive.google.com/file/d/1Qyo1dlWOrmKg9MzXs_rsJUFbApcAJ6o4/view?usp=sharing}{\raisebox{-0.1\height}\faExternalLink}}{Jul 2022}
+    {\small \underline{Cornell, Maryland, Max Planck Pre-doctoral Research School} \lang{-- Summer school attendance.}{-- Asistencia a escuela de verano.}}{Saarbrücken, Germany}
+  \resumeSubHeadingListEnd
+
+\end{document}
