@@ -1,23 +1,121 @@
 ---
 layout: archive
-title: "Teaching & Supervision"
+title: "Teaching & Academic Service"
 permalink: /teaching/
 author_profile: true
 ---
 
 {% include base_path %}
 
-<div class="teaching-list">
-  {% for post in site.teaching reversed %}
-    <div class="teaching-item" style="margin-bottom: 30px;">
-      <h3 style="margin-bottom: 4px; color: #0E5484;">{{ post.title }}</h3>
-      <p style="color: #666; font-size: 0.95em; margin-bottom: 10px;">
-        <strong>{{ post.type }}</strong> &middot; <i>{{ post.venue }}</i> &middot; {{ post.location }}
-      </p>
-      <div class="teaching-content" style="line-height: 1.6;">
-        {{ post.content | markdownify }}
-      </div>
-      <hr style="margin-top: 25px; border: 0; border-top: 1px solid #e5e5e5;" />
+<p style="font-size: 1.05em; color: #555; margin-bottom: 25px;">
+  Academic appointments, courses taught, student thesis supervision, and examination committees at Universidad Nacional de Córdoba and international venues.
+</p>
+
+<!-- 1. University Courses -->
+<div class="teaching-section" style="margin-bottom: 35px;">
+  <h2 style="color: #0E5484; border-bottom: 2px solid #0E5484; padding-bottom: 6px; margin-bottom: 18px;">
+    <i class="fas fa-university"></i> University Teaching
+  </h2>
+  
+  <div style="background: #fbfbfd; border: 1px solid #e1e4e8; border-radius: 8px; padding: 20px; margin-bottom: 15px;">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; margin-bottom: 6px;">
+      <h3 style="margin: 0; color: #0E5484; font-size: 1.15em;">Profesor Asistente (Assistant Professor) in Computer Science</h3>
+      <span style="color: #666; font-size: 0.9em; font-weight: bold;">March 2021 – Present</span>
     </div>
-  {% endfor %}
+    <p style="color: #555; font-size: 0.95em; margin-bottom: 12px;">
+      <strong>FaMAF</strong>, Universidad Nacional de Córdoba &middot; Córdoba, Argentina
+    </p>
+    <p style="margin-bottom: 10px; color: #333; line-height: 1.5;">
+      Teaching faculty in undergraduate and graduate Computer Science curricula. Responsible for lectures, lab coursework design, and student mentoring across the following core subjects:
+    </p>
+    <ul style="margin-bottom: 0; line-height: 1.6; color: #444;">
+      <li><strong>Databases (<em>Bases de Datos</em>)</strong>: Relational modeling, relational algebra, SQL, transactions, concurrency control, and DBMS internals.</li>
+      <li><strong>Discrete Mathematics II (<em>Matemática Discreta II</em>)</strong>: Graph theory, trees, network flows, combinatorial algorithms, and complexity.</li>
+      <li><strong>Introduction to Logic (<em>Introducción a la Lógica</em>)</strong>: Propositional and first-order logic, lattice theory, formal grammars, and automata theory.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 2. Thesis Supervision -->
+<div class="teaching-section" style="margin-bottom: 35px;">
+  <h2 style="color: #0E5484; border-bottom: 2px solid #0E5484; padding-bottom: 6px; margin-bottom: 18px;">
+    <i class="fas fa-user-graduate"></i> Thesis Advising &amp; Supervision
+  </h2>
+  
+  <div style="background: #fbfbfd; border: 1px solid #e1e4e8; border-radius: 8px; padding: 20px; margin-bottom: 15px;">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; margin-bottom: 6px;">
+      <h3 style="margin: 0; color: #0E5484; font-size: 1.15em;">Thesis Advisor: Lic. Sofía Martinelli</h3>
+      <span style="color: #666; font-size: 0.9em; font-weight: bold;">Defended December 2025</span>
+    </div>
+    <p style="color: #555; font-size: 0.95em; margin-bottom: 10px;">
+      Licenciatura en Ciencias de la Computación &middot; FaMAF, Universidad Nacional de Córdoba
+    </p>
+    <p style="margin-bottom: 12px; color: #333; line-height: 1.5;">
+      <strong>Thesis Title:</strong> <em>“Sesgos en modelos de lenguaje y construcción participativa de benchmarks de evaluación”</em> (Social biases in language models and participatory benchmark construction).
+    </p>
+    <div>
+      <a href="https://rdu.unc.edu.ar/items/7fff7b3e-3df3-4bac-a91a-9d50e83c8700" class="btn btn--primary btn--small" target="_blank"><i class="fas fa-external-link-alt"></i> UNC Repository (RDU)</a>
+    </div>
+  </div>
+</div>
+
+<!-- 3. Thesis Examination Committees -->
+<div class="teaching-section" style="margin-bottom: 35px;">
+  <h2 style="color: #0E5484; border-bottom: 2px solid #0E5484; padding-bottom: 6px; margin-bottom: 18px;">
+    <i class="fas fa-clipboard-check"></i> Thesis Examination Committees
+  </h2>
+  
+  <div style="background: #fbfbfd; border: 1px solid #e1e4e8; border-radius: 8px; padding: 20px; margin-bottom: 15px;">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; margin-bottom: 6px;">
+      <h3 style="margin: 0; color: #0E5484; font-size: 1.15em;">Jury Member / Thesis Examiner (<em>Jurado de Tesis de Grado</em>)</h3>
+      <span style="color: #666; font-size: 0.9em; font-weight: bold;">2025 – Present</span>
+    </div>
+    <p style="color: #555; font-size: 0.95em; margin-bottom: 10px;">
+      FaMAF, Universidad Nacional de Córdoba &middot; Licenciatura en Ciencias de la Computación
+    </p>
+    <p style="margin-bottom: 8px; color: #333; line-height: 1.5;">
+      Served as evaluation committee jury member for degree candidate defenses:
+    </p>
+    <ul style="margin-bottom: 0; line-height: 1.6; color: #444;">
+      <li><strong>María Victoria López Amuchastegui</strong> — Licenciatura en Ciencias de la Computación, FaMAF UNC.</li>
+      <li><strong>Nicolás András Hormann Manriquez</strong> — Licenciatura en Ciencias de la Computación, FaMAF UNC.</li>
+      <li><strong>Tiffany Bricet Fuentes de Abreu</strong> — Licenciatura en Ciencias de la Computación, FaMAF UNC.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 4. Tutorials & Summer Schools -->
+<div class="teaching-section" style="margin-bottom: 35px;">
+  <h2 style="color: #0E5484; border-bottom: 2px solid #0E5484; padding-bottom: 6px; margin-bottom: 18px;">
+    <i class="fas fa-chalkboard-teacher"></i> Tutorials &amp; Workshops
+  </h2>
+  
+  <div style="background: #fbfbfd; border: 1px solid #e1e4e8; border-radius: 8px; padding: 20px; margin-bottom: 15px;">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; margin-bottom: 6px;">
+      <h3 style="margin: 0; color: #0E5484; font-size: 1.15em;">Navigating Ethical Challenges in NLP: Hands-on Strategies</h3>
+      <span style="color: #666; font-size: 0.9em; font-weight: bold;">July 2025</span>
+    </div>
+    <p style="color: #555; font-size: 0.95em; margin-bottom: 10px;">
+      <strong>ACL 2025 Tutorial</strong> &middot; Vienna, Austria
+    </p>
+    <p style="margin-bottom: 10px; color: #333; line-height: 1.5;">
+      Co-instructor for the official ACL 2025 tutorial covering practical methodologies for students and researchers to evaluate social biases, design responsible AI protocols, and navigate ethical reviews.
+    </p>
+    <div>
+      <a href="https://aclanthology.org/2025.acl-tutorials.5/" class="btn btn--primary btn--small" target="_blank"><i class="fas fa-book"></i> Tutorial Abstract</a>
+    </div>
+  </div>
+
+  <div style="background: #fbfbfd; border: 1px solid #e1e4e8; border-radius: 8px; padding: 20px; margin-bottom: 15px;">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; margin-bottom: 6px;">
+      <h3 style="margin: 0; color: #0E5484; font-size: 1.15em;">Socio-Cultural Evaluation of AI</h3>
+      <span style="color: #666; font-size: 0.9em; font-weight: bold;">March 2025</span>
+    </div>
+    <p style="color: #555; font-size: 0.95em; margin-bottom: 10px;">
+      <strong>Khipu 2025 Practical Session</strong> &middot; Santiago, Chile
+    </p>
+    <p style="margin-bottom: 0; color: #333; line-height: 1.5;">
+      Conducted hands-on training for Latin American AI researchers on measuring cultural alignment, regional stereotypes, and calibration in foundation models.
+    </p>
+  </div>
 </div>

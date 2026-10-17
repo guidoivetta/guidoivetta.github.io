@@ -44,6 +44,9 @@
 \def\faExternalLink{\faIcon{external-link-alt}}
 
 % Custom list commands
+\renewcommand\labelitemi{\textbullet}
+\renewcommand\labelitemii{\textbullet}
+
 \newcommand{\resumeItem}[1]{
   \item\small{{#1}}
 }
@@ -59,7 +62,7 @@
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}, itemsep=2.5pt, topsep=1pt, parsep=0pt]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-3pt}}
 
-\newcommand{\resumeItemListStart}{\vspace{3.5pt}\begin{itemize}[leftmargin=0.18in, labelsep=4pt, itemsep=1.5pt, topsep=0pt, parsep=0pt]}
+\newcommand{\resumeItemListStart}{\vspace{3.5pt}\begin{itemize}[label=\textbullet, leftmargin=0.18in, labelsep=4pt, itemsep=1.5pt, topsep=0pt, parsep=0pt]}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{2pt}}
 
 %-------------------------------------------
@@ -211,10 +214,6 @@
     \href{https://www.arxiv.org/abs/2506.03665}{\raisebox{-0.1\height}\faExternalLink}}{Jul 2025}
     {\underline{arXiv - Maina, Ivetta, et al.}}{Virtual}
 
-    \resumeSubheading{SHADES: Towards a Multilingual Assessment of Stereotypes\ldots
-    \href{https://aclanthology.org/2025.naacl-long.600/}{\raisebox{-0.1\height}\faExternalLink}}{May 2025}
-    {\underline{NAACL 2025 - Mitchell et al.}}{Albuquerque, USA}
-    
     \resumeSubheading{CVQA - Culturally-diverse Multilingual Visual Question\ldots
     \href{https://dl.acm.org/doi/10.5555/3737916.3738282}{\raisebox{-0.1\height}\faExternalLink}}{\lang{Dec 2024}{Dic 2024}}
     {\underline{NeurIPS 2024 - Romero, Lyu, et al.}}{Vancouver, Canada}
